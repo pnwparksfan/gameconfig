@@ -7,6 +7,14 @@ Files based on [gameconfig releases by Dilapidated on gta5-mods](https://www.gta
 The [versions](versions) folder has a folder for each supported GTA V build number, containing the gameconfig.xml for 
 that game version. For the latest game version, check the [releases](https://github.com/pnwparksfan/gameconfig/releases). 
 
+## Installation instructions
+
+ 1. Using OpenIV or Codewalker Explorer, open `[mods]\update\update.rpf\common\data\`  
+    (We recommend using the "mods folder" feature in OpenIV)
+ 2. Make a backup of the original `gameconfig.xml`
+ 3. Copy in the modified `gameconfig.xml`
+ 4. Install any additional limit adjusters that may be required (see below)
+
 ## Other recommended files
 
  - [Heap Limit Adjuster](https://www.gta5-mods.com/tools/heapadjuster) - increases available memory for the game
