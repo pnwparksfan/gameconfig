@@ -7,6 +7,12 @@ Files based on [gameconfig releases by Dilapidated on gta5-mods](https://www.gta
 The [versions](versions) folder has a folder for each supported GTA V build number, containing the gameconfig.xml for 
 that game version. For the latest game version, check the [releases](https://github.com/pnwparksfan/gameconfig/releases). 
 
+## Other recommended files
+
+ - [Heap Limit Adjuster](https://www.gta5-mods.com/tools/heapadjuster) - increases available memory for the game
+ - [Packfile Limit Adjuster](https://www.gta5-mods.com/tools/packfile-limit-adjuster) - allows more DLC RPFs to be added
+ - [WeaponInfo Limit Adjuster](https://www.gta5-mods.com/tools/cweaponinfoblob-limit-adjuster) - allows for more add-on weapons to be defined
+
 ## Credits
 
  - Primary gameconfig adjustments: Dilapidated
