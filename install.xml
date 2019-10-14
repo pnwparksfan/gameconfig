@@ -1,0 +1,30 @@
+<EasyInstall>
+    <Name>Updated Gameconfig.xml</Name>
+    <Author>Dilapidated, PNWParksFan, and Contributors</Author>
+    <Version>1737</Version>
+    <Link>https://github.com/pnwparksfan/gameconfig/releases</Link>
+    <Metadata>
+    </Metadata>
+    <Addons>
+    </Addons>
+    <Replacements>
+		<Replacement name="Latest Gameconfig">
+			<FileReplacements>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/latest/gameconfig.xml</FilePath>
+			</FileReplacements>
+		</Replacement>
+		<Replacement name="GTA v1737 Gameconfig" default="false">
+			<FileReplacements>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/1737/gameconfig.xml</FilePath>
+			</FileReplacements>
+		</Replacement>
+		<Replacement name="GTA v1694 Gameconfig" default="false">
+			<FileReplacements>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/1604/gameconfig.xml</FilePath>
+			</FileReplacements>
+		</Replacement>
+    </Replacements>
+</EasyInstall>
