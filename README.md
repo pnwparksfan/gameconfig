@@ -7,7 +7,15 @@ Files based on [gameconfig releases by Dilapidated on gta5-mods](https://www.gta
 The [versions](versions) folder has a folder for each supported GTA V build number, containing the gameconfig.xml for 
 that game version. For the latest game version, check the [releases](https://github.com/pnwparksfan/gameconfig/releases). 
 
-## Installation instructions
+## LML Installation instructions
+ 1. Open the Mod Manager UI
+ 2. Go to [the download page](https://www.lcpdfr.com/downloads/gta5mods/misc/24718-gameconfigxml-for-lml/) on lcpdfr.com
+ 3. Click "Download with Mod Manager"
+ 4. The package will be installed automatically
+
+ _or_, you can download the package manually and copy the "gameconfig" folder into your GTAV/LML folder. 
+
+## Manual Installation instructions
 
  1. Using OpenIV or Codewalker Explorer, open `[mods]\update\update.rpf\common\data\`  
     (We recommend using the "mods folder" feature in OpenIV)

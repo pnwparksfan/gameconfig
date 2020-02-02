@@ -1,30 +1,48 @@
 <EasyInstall>
     <Name>Updated Gameconfig.xml</Name>
     <Author>Dilapidated, PNWParksFan, and Contributors</Author>
-    <Version>1737</Version>
+    <Version>1868</Version>
     <Link>https://github.com/pnwparksfan/gameconfig/releases</Link>
     <Metadata>
     </Metadata>
-    <Addons>
-    </Addons>
-    <Replacements>
-		<Replacement name="Latest Gameconfig">
-			<FileReplacements>
+    <ResourceGroups>
+		<ResourceGroup name="Latest Gameconfig" scriptName="latest">
+			<Description>Adds the modified gameconfig.xml for the latest GTA V version (1868). Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>latest_gameconfig</Resource>
+			</Resources>
+		</ResourceGroup>
+		<ResourceGroup name="Gameconfig 1737" scriptName="1737" disabledByDefault="true">
+			<Description>Adds the modified gameconfig.xml for GTA V version 1737. Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>gameconfig_1737</Resource>
+			</Resources>
+		</ResourceGroup>
+		<ResourceGroup name="Gameconfig 1604" scriptName="1604" disabledByDefault="true">
+			<Description>Adds the modified gameconfig.xml for GTA V version 1604. Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>gameconfig_1604</Resource>
+			</Resources>
+		</ResourceGroup>
+	</ResourceGroups>
+    <Resources>
+		<Resource name="Latest Gameconfig (GTA v1868)" scriptName="latest_gameconfig">
+			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
-				<FilePath>versions/latest/gameconfig.xml</FilePath>
-			</FileReplacements>
-		</Replacement>
-		<Replacement name="GTA v1737 Gameconfig" default="false">
-			<FileReplacements>
+				<FilePath>versions/1868/gameconfig.xml</FilePath>
+			</FileReplacement>
+		</Resource>
+		<Resource name="Gameconfig for GTA v1737" scriptName="gameconfig_1737">
+			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
 				<FilePath>versions/1737/gameconfig.xml</FilePath>
-			</FileReplacements>
-		</Replacement>
-		<Replacement name="GTA v1694 Gameconfig" default="false">
-			<FileReplacements>
+			</FileReplacement>
+		</Resource>
+		<Resource name="Gameconfig for GTA v1604" scriptName="gameconfig_1604">
+			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
 				<FilePath>versions/1604/gameconfig.xml</FilePath>
-			</FileReplacements>
-		</Replacement>
-    </Replacements>
+			</FileReplacement>
+		</Resource>
+    </Resources>
 </EasyInstall>
