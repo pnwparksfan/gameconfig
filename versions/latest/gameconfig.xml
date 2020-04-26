@@ -154,11 +154,7 @@ in this file and decrease the value.
 							<PoolName>cscenariopoint</PoolName>
 							<PoolSize value="1800"/>
 						</Item>
-						<Item>
-							<!-- R* cap = 300 : Unknown usage-->
-							<PoolName>crelationshipgroup</PoolName>
-							<PoolSize value="600"/>
-						</Item>
+						<!-- removed crelationshipgroup -->
 						<Item>
 							<!-- R* cap = 128 : Unknown usage-->
 							<PoolName>vehicleglasscomponententity</PoolName>
