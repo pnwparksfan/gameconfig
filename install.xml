@@ -7,9 +7,15 @@
     </Metadata>
     <ResourceGroups>
 		<ResourceGroup name="Latest Gameconfig" scriptName="latest">
-			<Description>Adds the modified gameconfig.xml for the latest GTA V version (1868). Make sure you only have one group enabled.</Description>
+			<Description>Adds the modified gameconfig.xml for the latest GTA V version (2060). Make sure you only have one group enabled.</Description>
 			<Resources>
 				<Resource>latest_gameconfig</Resource>
+			</Resources>
+		</ResourceGroup>
+		<ResourceGroup name="Gameconfig 1868" scriptName="1868" disabledByDefault="true">
+			<Description>Adds the modified gameconfig.xml for GTA V version 1868. Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>gameconfig_1868</Resource>
 			</Resources>
 		</ResourceGroup>
 		<ResourceGroup name="Gameconfig 1737" scriptName="1737" disabledByDefault="true">
@@ -26,7 +32,13 @@
 		</ResourceGroup>
 	</ResourceGroups>
     <Resources>
-		<Resource name="Latest Gameconfig (GTA v1868)" scriptName="latest_gameconfig">
+		<Resource name="Latest Gameconfig (GTA v2060)" scriptName="latest_gameconfig">
+			<FileReplacement>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/2060/gameconfig.xml</FilePath>
+			</FileReplacement>
+		</Resource>
+		<Resource name="Gameconfig for GTA v1868" scriptName="gameconfig_1868">
 			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
 				<FilePath>versions/1868/gameconfig.xml</FilePath>
