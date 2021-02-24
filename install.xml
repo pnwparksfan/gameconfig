@@ -1,13 +1,19 @@
 <EasyInstall>
     <Name>Updated Gameconfig.xml</Name>
     <Author>Dilapidated, PNWParksFan, and Contributors</Author>
-    <Version>2189</Version>
+    <Version>2215</Version>
     <Link>https://github.com/pnwparksfan/gameconfig/releases</Link>
     <Metadata>
     </Metadata>
     <ResourceGroups>
-		<ResourceGroup name="Latest Gameconfig" scriptName="2189">
-			<Description>Adds the modified gameconfig.xml for the latest GTA V version (2189). Make sure you only have one group enabled.</Description>
+		<ResourceGroup name="Latest Gameconfig" scriptName="2215">
+			<Description>Adds the modified gameconfig.xml for the latest GTA V version (2215). Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>gameconfig_2215</Resource>
+			</Resources>
+		</ResourceGroup>
+		<ResourceGroup name="Gameconfig 2189" scriptName="2189" disabledByDefault="true">
+			<Description>Adds the modified gameconfig.xml for GTA V version 2189. Make sure you only have one group enabled.</Description>
 			<Resources>
 				<Resource>gameconfig_2189</Resource>
 			</Resources>
@@ -38,6 +44,12 @@
 		</ResourceGroup>
 	</ResourceGroups>
     <Resources>
+		<Resource name="Gameconfig for GTA v2215" scriptName="gameconfig_2215">
+			<FileReplacement>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/2215/gameconfig.xml</FilePath>
+			</FileReplacement>
+		</Resource>
 		<Resource name="Gameconfig for GTA v2189" scriptName="gameconfig_2189">
 			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
