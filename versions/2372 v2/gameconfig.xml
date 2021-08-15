@@ -72,7 +72,7 @@ in this file and decrease the value.
 						<Item>
 							<!-- R* cap = 410 : Maximum value hardcapped to an array. Use WeaponLimitsAdjuster.asi to raise this limit and set this value to the amount used in the ini. Default is 1024 -->
 							<PoolName>cweaponcomponentinfo</PoolName>
-							<PoolSize value="820"/>
+							<PoolSize value="1024"/>
 						</Item>	
 						<Item>
 							<!-- R* cap = 33 : Unknown usage-->
