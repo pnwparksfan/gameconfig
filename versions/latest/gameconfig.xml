@@ -422,8 +422,8 @@ in this file and decrease the value.
 							<PoolSize value="14"/>
 						</Item>
 						<Item>
-							<PoolName>FragmentStore</PoolName>
 							<!-- Storage for fragments, .yft files -->
+							<PoolName>FragmentStore</PoolName>
 							<PoolSize value="284200"/>
 						</Item>
 						<Item>
