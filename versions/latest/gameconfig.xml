@@ -211,7 +211,7 @@ in this file and decrease the value.
 						<Item>
 							<!-- R* cap = 700 : fwScriptGuid is each handle used in scripts/natives, when it is returned by a native it is given a handle from this pool. SHV hardcodes this pool to 3072 and RPH raises it in a multiple of 1.2 -->
 							<PoolName>fwscriptguid</PoolName>
-							<PoolSize value="2800"/>
+							<PoolSize value="3072"/>
 						</Item>
 						<Item>
 							<!-- R* cap = 128 : Unknown usage-->
@@ -355,8 +355,9 @@ in this file and decrease the value.
 							<PoolSize value="1400"/>
 						</Item>
 						<Item>
+							<!-- SHV hardcodes this value to 3072 -->
 							<PoolName>CScriptEntityExtension</PoolName>
-							<PoolSize value="1400"/>
+							<PoolSize value="3072"/>
 						</Item>
 						<Item>
 							<PoolName>CVehicleChaseDirector</PoolName>
@@ -656,6 +657,7 @@ in this file and decrease the value.
 							<PoolSize value="500"/>
 						</Item>
 						<Item>
+							<!-- SHV hardcodes this value to 3072 -->
 							<PoolName>atDScriptObjectNode</PoolName>
 							<PoolSize value="1600"/>
 						</Item>
