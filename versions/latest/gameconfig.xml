@@ -232,8 +232,9 @@ in this file and decrease the value.
 							<PoolSize value="1200"/>
 						</Item>
 						<Item>
+							<!-- Crashed recently with this, default is 430, raised to 500 -->
 							<PoolName>AttachmentExtension</PoolName>
-							<PoolSize value="430"/>
+							<PoolSize value="500"/>
 						</Item>
 						<Item>
 						  <PoolName>AudioHeap</PoolName>
@@ -300,7 +301,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<PoolName>AnimStore</PoolName>
-							<PoolSize value="21500"/>
+							<PoolSize value="21700"/>
 						</Item>
 						<Item>
 							<PoolName>CGameScriptResource</PoolName>
@@ -404,7 +405,7 @@ in this file and decrease the value.
 						<Item>
 							<!-- Storage for drawable dictionaries, .ydd files -->
 							<PoolName>DwdStore</PoolName>
-							<PoolSize value="151100"/>
+							<PoolSize value="151300"/>
 						</Item>
 						<Item>
 							<PoolName>EntityBatch</PoolName>
@@ -425,7 +426,7 @@ in this file and decrease the value.
 						<Item>
 							<!-- Storage for fragments, .yft files -->
 							<PoolName>FragmentStore</PoolName>
-							<PoolSize value="284200"/>
+							<PoolSize value="285800"/>
 						</Item>
 						<Item>
 							<PoolName>GamePlayerBroadcastDataHandler_Remote</PoolName>
@@ -591,7 +592,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<PoolName>ScriptStore</PoolName>
-							<PoolSize value="990"/>
+							<PoolSize value="1010"/>
 						</Item>
 						<Item>
 							<PoolName>StaticBounds</PoolName>
@@ -814,6 +815,10 @@ in this file and decrease the value.
 							<PoolName>NavMeshRoute</PoolName>
 							<PoolSize value="1024"/>
 						</Item>
+						<Item>
+							<PoolName>scrGlobals</PoolName>
+							<PoolSize value="15000000"/>
+						</Item>
 					</Entries>
 				</PoolSizes>
 
@@ -1021,20 +1026,20 @@ in this file and decrease the value.
 					<MaxTimeModelInfos value="1800"/>
 					<MaxVehicleModelInfos value="5000"/>
 					<MaxWeaponModelInfos value="5000"/>
-					<MaxExtraPedModelInfos value="5070"/>
+					<MaxExtraPedModelInfos value="5110"/>
 					<MaxExtraVehicleModelInfos value="5050"/>
-					<MaxExtraWeaponModelInfos value="5010"/>
+					<MaxExtraWeaponModelInfos value="5020"/>
 				</ConfigModelInfo>
 
 				<ConfigExtensions>
-					<MaxDoorExtensions value="64"/>
+					<MaxDoorExtensions value="75"/>
 					<MaxLightExtensions value="1024"/>
 					<MaxSpawnPointOverrideExtensions value="255"/>
 					<MaxExpressionExtensions value="255"/>
 				</ConfigExtensions>
 
 				<ConfigStreamingEngine>
-					<ArchiveCount value="5000"/>
+					<ArchiveCount value="5256"/>
 					<PhysicalStreamingBuffer value="252"/>
 					<VirtualStreamingBuffer value="1000"/>
 				</ConfigStreamingEngine>
@@ -1313,7 +1318,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<StackName>FMMC_LAUNCHER</StackName>
-                            <SizeOfStack value="20000"/>
+                            <SizeOfStack value="21000"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
@@ -1323,7 +1328,7 @@ in this file and decrease the value.
                         </Item>
                         <Item>
                             <StackName>MISSION</StackName>
-                            <SizeOfStack value="41500"/>
+                            <SizeOfStack value="44500"/>
 							<NumberOfStacksOfThisSize value="1"/>
 						</Item>
 						<Item>
@@ -2118,7 +2123,7 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<ResourceTypeName>SCENARIO_BLOCKING_AREA</ResourceTypeName>
-							<ExpectedMaximum value="36"/>
+							<ExpectedMaximum value="45"/>
 						</Item>
 						<Item>
 							<ResourceTypeName>BINK_MOVIE</ResourceTypeName>
