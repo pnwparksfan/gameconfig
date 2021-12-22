@@ -50,7 +50,7 @@ in this file and decrease the value.
 							<PoolSize value="108"/>
 						</Item>
 						<Item>
-							<!-- R* cap = 1600 : Unknown usage-->
+							<!-- R* cap = 1600 : Fragment instances (components that break off) -->
 							<PoolName>fraginstgta</PoolName>
 							<PoolSize value="5000"/>
 						</Item>				
@@ -70,9 +70,9 @@ in this file and decrease the value.
 							<PoolSize value="440"/>
 						</Item>
 						<Item>
-							<!-- R* cap = 410 : Unknown usage-->
+							<!-- R* cap = 410 : Maximum value hardcapped to an array. Use WeaponLimitsAdjuster.asi to raise this limit and set this value to the amount used in the ini. Default is 1024 -->
 							<PoolName>cweaponcomponentinfo</PoolName>
-							<PoolSize value="820"/>
+							<PoolSize value="1024"/>
 						</Item>	
 						<Item>
 							<!-- R* cap = 33 : Unknown usage-->
@@ -195,14 +195,14 @@ in this file and decrease the value.
 							<PoolSize value="400"/>
 						</Item>
 						<Item>
-							<!-- R* cap = 60 : Unknown usage-->
+							<!-- R* cap = 60 : Hardcoded to an array of 60-->
 							<PoolName>cbullet</PoolName>
-							<PoolSize value="240"/>
+							<PoolSize value="60"/>
 						</Item>
 						<Item>
-							<!-- R* cap = 128 : Unknown usage-->
+							<!-- R* cap = 128 : There can be up to 16 CBullet::sBulletInstances per CBullet, but normally just 1-->
 							<PoolName>cbullet::sbulletinstance</PoolName>
-							<PoolSize value="512"/>
+							<PoolSize value="128"/>
 						</Item>
 						<Item>
 							<!-- R* cap = 104 : Unknown usage-->
@@ -210,7 +210,7 @@ in this file and decrease the value.
 							<PoolSize value="208"/>
 						</Item>
 						<Item>
-							<!-- R* cap = 700 : Unknown usage-->
+							<!-- R* cap = 700 : fwScriptGuid is each handle used in scripts/natives, when it is returned by a native it is given a handle from this pool. SHV hardcodes this pool to 3072 and RPH raises it in a multiple of 1.2 -->
 							<PoolName>fwscriptguid</PoolName>
 							<PoolSize value="2800"/>
 						</Item>
@@ -220,9 +220,9 @@ in this file and decrease the value.
 							<PoolSize value="266"/>
 						</Item>
 						<Item>
-							<!-- R* cap = 600 : Unknown usage-->
+							<!-- R* cap = 600 : Decorator is what stores the script decorators values, so each time you do DECOR_SET_*, if the entity doesn't already have that decorator it takes a new one from the pool-->
 							<PoolName>decorator</PoolName>
-							<PoolSize value="600"/>
+							<PoolSize value="1200"/>
 						</Item>						
 						<!-- END -->
 
@@ -245,8 +245,9 @@ in this file and decrease the value.
 							<PoolSize value="150"/>
 						</Item>
 						<Item>
+						<!-- Setting this value above 66025 can cause issues with NVE around the tunnel and roads they added, no other mods appear to be impacted -->
 							<PoolName>Building</PoolName>
-							<PoolSize value="77000"/>
+							<PoolSize value="66000"/>
 						</Item>
 						<Item>
 							<!-- Size of CVehicleRecordingMgr's streaming module. -->
@@ -387,8 +388,9 @@ in this file and decrease the value.
 							<PoolSize value="40"/>
 						</Item>
 						<Item>
+						<!-- Match Decorator pool. DecoratorExtension stores a list of Decorators so 1 DecoratorExtension per entity -->
 							<PoolName>DecoratorExtension</PoolName>
-							<PoolSize value="600"/>
+							<PoolSize value="1200"/>
 						</Item>
 						<Item>
 							<PoolName>DrawableStore</PoolName>
@@ -524,6 +526,7 @@ in this file and decrease the value.
 							<PoolSize value="1024"/>
 						</Item>
 						<Item>
+						<!-- Physics instances, for physics world simulation -->
 							<PoolName>phInstGta</PoolName>
 							<PoolSize value="18000"/>
 						</Item>
@@ -650,8 +653,9 @@ in this file and decrease the value.
 							<PoolSize value="1600"/>
 						</Item>
 						<Item>
+						<!-- Archetypes/model infos have at most one associated fwDynamicArchetypeComponent.  Setting it to the same size as fwArchetypePooledMap should be ok-->
 							<PoolName>fwDynamicArchetypeComponent</PoolName>
-							<PoolSize value="51500"/>
+							<PoolSize value="65521"/>
 						</Item>
 						<Item>
 							<PoolName>fwDynamicEntityComponent</PoolName>
@@ -661,18 +665,21 @@ in this file and decrease the value.
 							<PoolName>fwEntityContainer</PoolName>
 							<PoolSize value="1250"/>
 						</Item>
-						<Item>
-							<PoolName>fwMatrixTransform</PoolName>
-							<PoolSize value="90000"/>
-						</Item>
-						<Item>
-							<PoolName>fwQuaternionTransform</PoolName>
-							<PoolSize value="38874"/>
-						</Item>
-						<Item>
-							<PoolName>fwSimpleTransform</PoolName>
-							<PoolSize value="111000"/>
-						</Item>
+                        <Item>
+						<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
+                            <PoolName>fwMatrixTransform</PoolName>
+                            <PoolSize value="30000"/>
+                        </Item>
+                        <Item>
+						<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
+                            <PoolName>fwQuaternionTransform</PoolName>
+                            <PoolSize value="12958"/>
+                        </Item>
+                        <Item>
+						<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
+                            <PoolName>fwSimpleTransform</PoolName>
+                            <PoolSize value="37000"/>
+                        </Item>
 						<Item>
 							<PoolName>ScenarioCarGensPerRegion</PoolName>
 							<PoolSize value="320"/>
