@@ -222,7 +222,12 @@ in this file and decrease the value.
 							<!-- R* cap = 600 : Decorator is what stores the script decorators values, so each time you do DECOR_SET_*, if the entity doesn't already have that decorator it takes a new one from the pool-->
 							<PoolName>decorator</PoolName>
 							<PoolSize value="1200"/>
-						</Item>						
+						</Item>
+						<Item>
+							<!-- R* cap = 165 : weapon pickup data-->
+							<PoolName>cpickupdata</PoolName>
+							<PoolSize value="330"/>
+						</Item>
 						<!-- END -->
 
 						
