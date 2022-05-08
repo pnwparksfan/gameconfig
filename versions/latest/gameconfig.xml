@@ -26,537 +26,537 @@ in this file and decrease the value.
 						<Item>
 							<!-- R* cap = 7 : Affects Swat Rope Rappel AI -->
 							<PoolName>ropedata</PoolName>
-							<PoolSize value="28"/>
+							<PoolSize value="28" />
 						</Item>
 						<Item>
 							<!-- R* cap = 111 : Affects CAmbulanceOrder CFireOrder CGangOrder CPoliceOrder CSwatOrder etc -->
 							<PoolName>orders</PoolName>
-							<PoolSize value="444"/>
+							<PoolSize value="444" />
 						</Item>
 						<Item>
 							<!-- R* cap = 51 : Affects CArrestIncident CScriptIncident CWantedIncident etc -->
 							<PoolName>incidents</PoolName>
-							<PoolSize value="204"/>
+							<PoolSize value="204" />
 						</Item>
 						<Item>
 							<!-- R* cap = 4 : Affects limits of total caihandling parameters in vehicleaihandlinginfo.meta (you can now have as many custom handlinginfo parameters as you wish)-->
 							<PoolName>caihandlinginfo</PoolName>
-							<PoolSize value="12"/>
+							<PoolSize value="12" />
 						</Item>
 						<Item>
 							<!-- R* cap = 36 : Affects limits of total curvepoint parameters in vehicleaihandlinginfo.meta (you can now have as many custom curvepoint parameters as you wish)-->
 							<PoolName>caicurvepoint</PoolName>
-							<PoolSize value="108"/>
+							<PoolSize value="108" />
 						</Item>
 						<Item>
 							<!-- R* cap = 1600 : Fragment instances (components that break off) -->
 							<PoolName>fraginstgta</PoolName>
-							<PoolSize value="5000"/>
-						</Item>				
+							<PoolSize value="5000" />
+						</Item>
 						<Item>
 							<!-- R* cap = 31 : Increasing this value in addition to CEvent can resolve GTA.Native.?A0x55605b1d.NativeTask.Run() crashes in wineventlog -->
 							<PoolName>ctasksequencelist</PoolName>
-							<PoolSize value="250"/>
-						</Item>				
+							<PoolSize value="250" />
+						</Item>
 						<Item>
 							<!-- R* cap = 83 : Unknown usage-->
 							<PoolName>cgamescripthandler</PoolName>
-							<PoolSize value="400"/>
+							<PoolSize value="400" />
 						</Item>
 						<Item>
 							<!-- R* cap = 220 : Unknown usage-->
 							<PoolName>cweaponcomponent</PoolName>
-							<PoolSize value="440"/>
+							<PoolSize value="440" />
 						</Item>
 						<Item>
 							<!-- R* cap = 410 : Maximum value hardcapped to an array. Use WeaponLimitsAdjuster.asi to raise this limit and set this value to the amount used in the ini. Default is 1024 -->
 							<PoolName>cweaponcomponentinfo</PoolName>
-							<PoolSize value="1024"/>
-						</Item>	
+							<PoolSize value="1024" />
+						</Item>
 						<Item>
 							<!-- R* cap = 33 : Unknown usage-->
 							<PoolName>cplayerinfo</PoolName>
-							<PoolSize value="132"/>
-						</Item>						
+							<PoolSize value="132" />
+						</Item>
 						<Item>
 							<!-- R* cap = 60 : Unknown usage-->
 							<PoolName>cvehiclestreamrequestgfx</PoolName>
-							<PoolSize value="240"/>
-						</Item>						
+							<PoolSize value="240" />
+						</Item>
 						<Item>
 							<!-- R* cap = 100 : Unknown usage-->
 							<PoolName>cvehiclestreamrendergfx</PoolName>
-							<PoolSize value="400"/>
-						</Item>								
+							<PoolSize value="400" />
+						</Item>
 						<Item>
 							<!-- R* cap = 1500 : Unknown usage-->
 							<PoolName>wheels</PoolName>
-							<PoolSize value="3000"/>
-						</Item>						
+							<PoolSize value="3000" />
+						</Item>
 						<Item>
 							<!-- R* cap = 1250 : Unknown usage-->
 							<PoolName>chandlingobject</PoolName>
-							<PoolSize value="2500"/>
-						</Item>								
+							<PoolSize value="2500" />
+						</Item>
 						<Item>
 							<!-- R* cap = 100 : Unknown usage-->
 							<PoolName>cpatrollink</PoolName>
-							<PoolSize value="400"/>
-						</Item>						
+							<PoolSize value="400" />
+						</Item>
 						<Item>
 							<!-- R* cap = 50 : Unknown usage-->
 							<PoolName>cpatrolnode</PoolName>
-							<PoolSize value="200"/>
-						</Item>						
+							<PoolSize value="200" />
+						</Item>
 						<Item>
 							<!-- R* cap = 6 : Unknown usage-->
 							<PoolName>patrolroute</PoolName>
-							<PoolSize value="24"/>
-						</Item>								
+							<PoolSize value="24" />
+						</Item>
 						<Item>
 							<!-- R* cap = 36 : Unknown usage-->
 							<PoolName>cnamedpatrolroute</PoolName>
-							<PoolSize value="144"/>
-						</Item>						
+							<PoolSize value="144" />
+						</Item>
 						<Item>
 							<!-- R* cap = 40 : Unknown usage-->
 							<PoolName>pointroute</PoolName>
-							<PoolSize value="160"/>
-						</Item>						
+							<PoolSize value="160" />
+						</Item>
 						<Item>
 							<!-- R* cap = 255 : Unknown usage-->
 							<PoolName>cspawnpointoverrideextension</PoolName>
-							<PoolSize value="510"/>
-						</Item>						
+							<PoolSize value="510" />
+						</Item>
 						<Item>
 							<!-- R* cap = 4 : Unknown usage-->
 							<PoolName>ccollectioninfo</PoolName>
-							<PoolSize value="16"/>
-						</Item>								
+							<PoolSize value="16" />
+						</Item>
 						<Item>
 							<!-- R* cap = 1200 : Unknown usage-->
 							<PoolName>tasksequenceinfo</PoolName>
-							<PoolSize value="4800"/>
-						</Item>								
+							<PoolSize value="4800" />
+						</Item>
 						<Item>
 							<!-- R* cap = 3 : Unknown usage-->
 							<PoolName>ceventdecisionmakermodifiablecomponent</PoolName>
-							<PoolSize value="12"/>
-						</Item>						
+							<PoolSize value="12" />
+						</Item>
 						<Item>
 							<!-- R* cap = 25 : Unknown usage-->
 							<PoolName>ceventdecisionmaker</PoolName>
-							<PoolSize value="100"/>
-						</Item>									
+							<PoolSize value="100" />
+						</Item>
 						<Item>
 							<!-- R* cap = 900 : Unknown usage-->
 							<PoolName>cscenariopoint</PoolName>
-							<PoolSize value="1800"/>
+							<PoolSize value="1800" />
 						</Item>
 						<Item>
-							<!-- R* cap = 300 : Unknown usage NOTE: Raising above 300 appears to cause crashes!--> 
+							<!-- R* cap = 300 : Unknown usage NOTE: Raising above 300 appears to cause crashes!-->
 							<PoolName>crelationshipgroup</PoolName>
-							<PoolSize value="300"/>
+							<PoolSize value="300" />
 						</Item>
 						<Item>
 							<!-- R* cap = 128 : Unknown usage-->
 							<PoolName>vehicleglasscomponententity</PoolName>
-							<PoolSize value="256"/>
+							<PoolSize value="256" />
 						</Item>
 						<Item>
 							<!-- R* cap = 128 : Unknown usage-->
 							<PoolName>targetting</PoolName>
-							<PoolSize value="256"/>
+							<PoolSize value="256" />
 						</Item>
 						<Item>
 							<!-- R* cap = 512 : Unknown usage-->
 							<PoolName>naenvironmentgroup</PoolName>
-							<PoolSize value="1024"/>
+							<PoolSize value="1024" />
 						</Item>
 						<Item>
 							<!-- R* cap = 50 : Unknown usage-->
 							<PoolName>pedprop req data</PoolName>
-							<PoolSize value="200"/>
+							<PoolSize value="200" />
 						</Item>
 						<Item>
 							<!-- R* cap = 120 : Unknown usage-->
 							<PoolName>pedprop render data</PoolName>
-							<PoolSize value="480"/>
+							<PoolSize value="480" />
 						</Item>
 						<Item>
 							<!-- R* cap = 45 : Unknown usage-->
 							<PoolName>streamped req data</PoolName>
-							<PoolSize value="180"/>
+							<PoolSize value="180" />
 						</Item>
 						<Item>
 							<!-- R* cap = 100 : Unknown usage-->
 							<PoolName>streamped render data</PoolName>
-							<PoolSize value="400"/>
+							<PoolSize value="400" />
 						</Item>
 						<Item>
 							<!-- R* cap = 60 : Hardcoded to an array of 60-->
 							<PoolName>cbullet</PoolName>
-							<PoolSize value="60"/>
+							<PoolSize value="60" />
 						</Item>
 						<Item>
 							<!-- R* cap = 128 : There can be up to 16 CBullet::sBulletInstances per CBullet, but normally just 1-->
 							<PoolName>cbullet::sbulletinstance</PoolName>
-							<PoolSize value="128"/>
+							<PoolSize value="128" />
 						</Item>
 						<Item>
 							<!-- R* cap = 104 : Unknown usage-->
 							<PoolName>fwcontainerlod</PoolName>
-							<PoolSize value="208"/>
+							<PoolSize value="208" />
 						</Item>
 						<Item>
 							<!-- R* cap = 700 : fwScriptGuid is each handle used in scripts/natives, when it is returned by a native it is given a handle from this pool. SHV hardcodes this pool to 3072 and RPH raises it in a multiple of 1.2 -->
 							<PoolName>fwscriptguid</PoolName>
-							<PoolSize value="3072"/>
+							<PoolSize value="3072" />
 						</Item>
 						<Item>
 							<!-- R* cap = 128 : Unknown usage-->
 							<PoolName>itemsetbuffer</PoolName>
-							<PoolSize value="266"/>
+							<PoolSize value="266" />
 						</Item>
 						<Item>
 							<!-- R* cap = 600 : Decorator is what stores the script decorators values, so each time you do DECOR_SET_*, if the entity doesn't already have that decorator it takes a new one from the pool-->
 							<PoolName>decorator</PoolName>
-							<PoolSize value="1200"/>
-						</Item>						
+							<PoolSize value="1200" />
+						</Item>
 						<!-- END -->
 
-						
+
 						<!-- Keep these sorted -->
 						<Item>
 							<PoolName>AnimatedBuilding</PoolName>
-							<PoolSize value="1200"/>
+							<PoolSize value="1200" />
 						</Item>
 						<Item>
 							<!-- Crashed recently with this, default is 430, raised to 500 -->
 							<PoolName>AttachmentExtension</PoolName>
-							<PoolSize value="500"/>
+							<PoolSize value="500" />
 						</Item>
 						<Item>
-						  <PoolName>AudioHeap</PoolName>
-						  <PoolSize value="195"/>
+							<PoolName>AudioHeap</PoolName>
+							<PoolSize value="195" />
 						</Item>
 						<Item>
 							<PoolName>BlendshapeStore</PoolName>
-							<PoolSize value="150"/>
+							<PoolSize value="150" />
 						</Item>
 						<Item>
 							<!-- Setting this value above 66025 can cause issues with NVE around the tunnel and roads they added, no other mods appear to be impacted -->
 							<PoolName>Building</PoolName>
-							<PoolSize value="66000"/>
+							<PoolSize value="66000" />
 						</Item>
 						<Item>
 							<!-- Size of CVehicleRecordingMgr's streaming module. -->
 							<PoolName>carrec</PoolName>
-							<PoolSize value="5500"/>
+							<PoolSize value="5500" />
 						</Item>
 						<Item>
 							<PoolName>CBoatChaseDirector</PoolName>
-							<PoolSize value="8"/>
+							<PoolSize value="8" />
 						</Item>
 						<Item>
 							<PoolName>CVehicleCombatAvoidanceArea</PoolName>
-							<PoolSize value="5"/>
+							<PoolSize value="5" />
 						</Item>
 						<Item>
 							<PoolName>CCargen</PoolName>
-							<PoolSize value="8000"/>
+							<PoolSize value="8000" />
 						</Item>
 						<Item>
 							<PoolName>CCargenForScenarios</PoolName>
-							<PoolSize value="5000"/>
+							<PoolSize value="5000" />
 						</Item>
 						<Item>
 							<PoolName>CCombatDirector</PoolName>
-							<PoolSize value="50"/>
+							<PoolSize value="50" />
 						</Item>
 						<Item>
 							<!-- Storage for combat infos, RDE 4.0 requires a minimum of 19. -->
 							<PoolName>CCombatInfo</PoolName>
-							<PoolSize value="170"/>
+							<PoolSize value="170" />
 						</Item>
 						<Item>
 							<PoolName>CCombatSituation</PoolName>
-							<PoolSize value="60"/>
+							<PoolSize value="60" />
 						</Item>
 						<Item>
 							<PoolName>CCoverFinder</PoolName>
-							<PoolSize value="40"/>
+							<PoolSize value="40" />
 						</Item>
 						<Item>
 							<PoolName>CDefaultCrimeInfo</PoolName>
-							<PoolSize value="13"/>
+							<PoolSize value="13" />
 						</Item>
 						<Item>
 							<PoolName>CTacticalAnalysis</PoolName>
-							<PoolSize value="30"/>
+							<PoolSize value="30" />
 						</Item>
 						<Item>
 							<PoolName>CTaskUseScenarioEntityExtension</PoolName>
-							<PoolSize value="1024"/>
+							<PoolSize value="1024" />
 						</Item>
 						<Item>
 							<PoolName>AnimStore</PoolName>
-							<PoolSize value="21700"/>
+							<PoolSize value="21700" />
 						</Item>
 						<Item>
 							<PoolName>CGameScriptResource</PoolName>
-							<PoolSize value="5506"/>
+							<PoolSize value="5506" />
 						</Item>
 						<Item>
 							<PoolName>ClothStore</PoolName>
-							<PoolSize value="60"/>
+							<PoolSize value="60" />
 						</Item>
 						<Item>
 							<PoolName>CombatMeleeManager_Groups</PoolName>
-							<PoolSize value="30"/>
+							<PoolSize value="30" />
 						</Item>
 						<Item>
 							<PoolName>CombatMeleeManager_GroupsMP</PoolName>
-							<PoolSize value="20"/>
+							<PoolSize value="20" />
 						</Item>
 						<Item>
 							<PoolName>CombatMountedManager_Attacks</PoolName>
-							<PoolSize value="1"/>
+							<PoolSize value="1" />
 						</Item>
 						<Item>
 							<PoolName>CompEntity</PoolName>
-							<PoolSize value="39"/>
+							<PoolSize value="39" />
 						</Item>
 						<Item>
 							<PoolName>CPrioritizedClipSetBucket</PoolName>
-							<PoolSize value="22"/>
+							<PoolSize value="22" />
 						</Item>
 						<Item>
 							<PoolName>CPrioritizedClipSetRequest</PoolName>
-							<PoolSize value="116"/>
+							<PoolSize value="116" />
 						</Item>
 						<Item>
 							<PoolName>CRoadBlock</PoolName>
-							<PoolSize value="36"/>
+							<PoolSize value="36" />
 						</Item>
 						<Item>
 							<PoolName>CStuntJump</PoolName>
-							<PoolSize value="64"/>
+							<PoolSize value="64" />
 						</Item>
 						<Item>
 							<PoolName>CScenarioInfo</PoolName>
-							<PoolSize value="885"/>
+							<PoolSize value="885" />
 						</Item>
 						<Item>
 							<PoolName>CScenarioPointExtraData</PoolName>
-							<PoolSize value="880"/>
+							<PoolSize value="880" />
 						</Item>
 						<Item>
 							<PoolName>CutsceneStore</PoolName>
-							<PoolSize value="1400"/>
+							<PoolSize value="1400" />
 						</Item>
 						<Item>
 							<!-- SHV hardcodes this value to 3072 -->
 							<PoolName>CScriptEntityExtension</PoolName>
-							<PoolSize value="3072"/>
+							<PoolSize value="3072" />
 						</Item>
 						<Item>
 							<PoolName>CVehicleChaseDirector</PoolName>
-							<PoolSize value="8"/>
+							<PoolSize value="8" />
 						</Item>
 						<Item>
 							<PoolName>CVehicleClipRequestHelper</PoolName>
-							<PoolSize value="45"/>
+							<PoolSize value="45" />
 						</Item>
 						<Item>
 							<PoolName>CPathNodeRouteSearchHelper</PoolName>
-							<PoolSize value="256"/>
+							<PoolSize value="256" />
 						</Item>
 						<Item>
 							<PoolName>CGrabHelper</PoolName>
-							<PoolSize value="8"/>
+							<PoolSize value="8" />
 						</Item>
 						<Item>
 							<PoolName>CGpsNumNodesStored</PoolName>
-							<PoolSize value="1024"/>
+							<PoolSize value="1024" />
 						</Item>
 						<Item>
 							<PoolName>CClimbHandHoldDetected</PoolName>
-							<PoolSize value="32"/>
+							<PoolSize value="32" />
 						</Item>
 						<Item>
 							<PoolName>CAmbientLookAt</PoolName>
-							<PoolSize value="40"/>
+							<PoolSize value="40" />
 						</Item>
 						<Item>
 							<!-- Match Decorator pool. DecoratorExtension stores a list of Decorators so 1 DecoratorExtension per entity -->
 							<PoolName>DecoratorExtension</PoolName>
-							<PoolSize value="1200"/>
+							<PoolSize value="1200" />
 						</Item>
 						<Item>
 							<!-- Storage for drawables, .ydr files -->
 							<PoolName>DrawableStore</PoolName>
-							<PoolSize value="156600"/>
+							<PoolSize value="156600" />
 						</Item>
 						<Item>
 							<PoolName>Dummy Object</PoolName>
-							<PoolSize value="15000"/>
+							<PoolSize value="15000" />
 						</Item>
 						<Item>
 							<!-- Storage for drawable dictionaries, .ydd files -->
 							<PoolName>DwdStore</PoolName>
-							<PoolSize value="151300"/>
+							<PoolSize value="151300" />
 						</Item>
 						<Item>
 							<PoolName>EntityBatch</PoolName>
-							<PoolSize value="7500"/>
+							<PoolSize value="7500" />
 						</Item>
 						<Item>
 							<PoolName>GrassBatch</PoolName>
-							<PoolSize value="30000"/>
+							<PoolSize value="30000" />
 						</Item>
 						<Item>
 							<PoolName>ExprDictStore</PoolName>
-							<PoolSize value="625"/>
+							<PoolSize value="625" />
 						</Item>
 						<Item>
 							<PoolName>FrameFilterStore</PoolName>
-							<PoolSize value="14"/>
+							<PoolSize value="14" />
 						</Item>
 						<Item>
 							<!-- Storage for fragments, .yft files -->
 							<PoolName>FragmentStore</PoolName>
-							<PoolSize value="285800"/>
+							<PoolSize value="285800" />
 						</Item>
 						<Item>
 							<PoolName>GamePlayerBroadcastDataHandler_Remote</PoolName>
-							<PoolSize value="1550"/>
+							<PoolSize value="1550" />
 						</Item>
 						<Item>
 							<PoolName>InstanceBuffer</PoolName>
-							<PoolSize value="20000"/>
+							<PoolSize value="20000" />
 						</Item>
 						<Item>
 							<PoolName>InteriorInst</PoolName>
-							<PoolSize value="400"/>
+							<PoolSize value="400" />
 						</Item>
 						<Item>
 							<PoolName>InteriorProxy</PoolName>
-							<PoolSize value="1150"/>
+							<PoolSize value="1150" />
 						</Item>
 						<Item>
 							<PoolName>IplStore</PoolName>
-							<PoolSize value="3000"/>
+							<PoolSize value="3000" />
 						</Item>
 						<Item>
 							<PoolName>MaxLoadedInfo</PoolName>
-							<PoolSize value="46000"/>
+							<PoolSize value="46000" />
 						</Item>
 						<Item>
 							<PoolName>MaxLoadRequestedInfo</PoolName>
-							<PoolSize value="24000"/>
+							<PoolSize value="24000" />
 						</Item>
 						<Item>
 							<PoolName>ActiveLoadedInfo</PoolName>
-							<PoolSize value="24000"/>
+							<PoolSize value="24000" />
 						</Item>
 						<Item>
 							<PoolName>ActivePersistentLoadedInfo</PoolName>
-							<PoolSize value="16000"/>
+							<PoolSize value="16000" />
 						</Item>
 						<Item>
 							<PoolName>Known Refs</PoolName>
-							<PoolSize value="24000"/>
+							<PoolSize value="24000" />
 						</Item>
 						<Item>
 							<PoolName>LightEntity</PoolName>
-							<PoolSize value="6500"/>
+							<PoolSize value="6500" />
 						</Item>
 						<Item>
 							<PoolName>MapDataLoadedNode</PoolName>
-							<PoolSize value="5000"/>
+							<PoolSize value="5000" />
 						</Item>
 						<Item>
 							<!-- Storage for imaps, .ymap files -->
 							<PoolName>MapDataStore</PoolName>
-							<PoolSize value="50000"/>
+							<PoolSize value="50000" />
 						</Item>
 						<Item>
 							<!-- Storage for .ytyp files -->
 							<PoolName>MapTypesStore</PoolName>
-							<PoolSize value="3000"/>
+							<PoolSize value="3000" />
 						</Item>
 						<Item>
 							<!-- Storage for metadata files, .ymt files -->
 							<PoolName>MetaDataStore</PoolName>
-							<PoolSize value="6000"/>
+							<PoolSize value="6000" />
 						</Item>
 						<Item>
 							<PoolName>NavMeshes</PoolName>
-							<PoolSize value="17500"/>
+							<PoolSize value="17500" />
 						</Item>
 						<Item>
 							<PoolName>NetworkDefStore</PoolName>
-							<PoolSize value="118"/>
+							<PoolSize value="118" />
 						</Item>
 						<Item>
 							<PoolName>NetworkCrewDataMgr</PoolName>
-							<PoolSize value="16"/>
+							<PoolSize value="16" />
 						</Item>
 						<Item>
 							<PoolName>Object</PoolName>
 							<!-- Raising this value can cause issues with recording -->
-							<PoolSize value="2300"/>
+							<PoolSize value="2300" />
 						</Item>
 						<Item>
 							<PoolName>OcclusionInteriorInfo</PoolName>
-							<PoolSize value="70"/>
+							<PoolSize value="70" />
 						</Item>
 						<Item>
 							<PoolName>OcclusionPathNode</PoolName>
-							<PoolSize value="5250"/>
+							<PoolSize value="5250" />
 						</Item>
 						<Item>
 							<PoolName>OcclusionPortalEntity</PoolName>
-							<PoolSize value="280"/>
+							<PoolSize value="280" />
 						</Item>
 						<Item>
 							<PoolName>OcclusionPortalInfo</PoolName>
-							<PoolSize value="550"/>
+							<PoolSize value="550" />
 						</Item>
 						<Item>
 							<PoolName>Peds</PoolName>
-							<PoolSize value="256"/>
+							<PoolSize value="256" />
 						</Item>
 						<Item>
 							<!-- Handles weapon logic, normally attached to weapon objects, most likely will never need to be increased -->
 							<PoolName>CWeapon</PoolName>
-							<PoolSize value="1024"/>
+							<PoolSize value="1024" />
 						</Item>
 						<Item>
 							<!-- Physics instances, for physics world simulation -->
 							<PoolName>phInstGta</PoolName>
-							<PoolSize value="18000"/>
+							<PoolSize value="18000" />
 						</Item>
 						<Item>
 							<PoolName>PhysicsBounds</PoolName>
-							<PoolSize value="1450"/>
+							<PoolSize value="1450" />
 						</Item>
 						<Item>
 							<PoolName>CPickup</PoolName>
-							<PoolSize value="73"/>
+							<PoolSize value="73" />
 						</Item>
 						<Item>
 							<PoolName>CPickupPlacement</PoolName>
-							<PoolSize value="280"/>
+							<PoolSize value="280" />
 						</Item>
 						<Item>
 							<PoolName>CPickupPlacementCustomScriptData</PoolName>
-							<PoolSize value="200"/>
+							<PoolSize value="200" />
 						</Item>
 						<Item>
 							<PoolName>CRegenerationInfo</PoolName>
-							<PoolSize value="56"/>
+							<PoolSize value="56" />
 						</Item>
 						<Item>
 							<PoolName>PortalInst</PoolName>
@@ -568,480 +568,480 @@ in this file and decrease the value.
 						</Item>
 						<Item>
 							<PoolName>PMStore</PoolName>
-							<PoolSize value="100"/>
+							<PoolSize value="100" />
 						</Item>
 						<Item>
 							<PoolName>PtFxSortedEntity</PoolName>
-							<PoolSize value="1000"/>
+							<PoolSize value="1000" />
 						</Item>
 						<Item>
 							<PoolName>PtFxAssetStore</PoolName>
-							<PoolSize value="600"/>
+							<PoolSize value="600" />
 						</Item>
 						<Item>
 							<PoolName>QuadTreeNodes</PoolName>
-							<PoolSize value="1350"/>
+							<PoolSize value="1350" />
 						</Item>
 						<Item>
 							<PoolName>ScaleformStore</PoolName>
-							<PoolSize value="790"/>
+							<PoolSize value="790" />
 						</Item>
 						<Item>
 							<PoolName>ScaleformMgrArray</PoolName>
-							<PoolSize value="40"/>
+							<PoolSize value="40" />
 						</Item>
 						<Item>
 							<PoolName>ScriptStore</PoolName>
-							<PoolSize value="1010"/>
+							<PoolSize value="1010" />
 						</Item>
 						<Item>
 							<PoolName>StaticBounds</PoolName>
-							<PoolSize value="46500"/>
+							<PoolSize value="46500" />
 						</Item>
 						<Item>
 							<PoolName>tcBox</PoolName>
-							<PoolSize value="15000"/>
+							<PoolSize value="15000" />
 						</Item>
 						<Item>
 							<PoolName>TrafficLightInfos</PoolName>
-							<PoolSize value="512"/>
+							<PoolSize value="512" />
 						</Item>
 						<Item>
 							<!-- Storage for texture dictionaries, .ytd files -->
 							<PoolName>TxdStore</PoolName>
-							<PoolSize value="213300"/>
+							<PoolSize value="213300" />
 						</Item>
 						<Item>
 							<PoolName>Vehicles</PoolName>
-							<PoolSize value="300"/>
+							<PoolSize value="300" />
 						</Item>
 						<Item>
 							<PoolName>VehicleStreamRequest</PoolName>
-							<PoolSize value="240"/>
+							<PoolSize value="240" />
 						</Item>
 						<Item>
 							<PoolName>VehicleStreamRender</PoolName>
-							<PoolSize value="240"/>
+							<PoolSize value="240" />
 						</Item>
 						<Item>
 							<PoolName>VehicleStruct</PoolName>
-							<PoolSize value="600"/>
+							<PoolSize value="600" />
 						</Item>
-        					<Item>
+						<Item>
 							<PoolName>HandlingData</PoolName>
-							<PoolSize value="5100"/>
-						</Item>    
+							<PoolSize value="5100" />
+						</Item>
 						<Item>
 							<!-- Size of the CWaypointRecording streaming module. -->
 							<PoolName>wptrec</PoolName>
-							<PoolSize value="850"/>
+							<PoolSize value="850" />
 						</Item>
 						<Item>
 							<PoolName>fwLodNode</PoolName>
-							<PoolSize value="25000"/>
+							<PoolSize value="25000" />
 						</Item>
 						<Item>
 							<PoolName>CTask</PoolName>
-							<PoolSize value="8192"/>
+							<PoolSize value="8192" />
 						</Item>
 						<Item>
 							<!-- Increasing this value in addition to ctasksequencelist can resolve GTA.Native.?A0x55605b1d.NativeTask.Run() crashes in wineventlog -->
 							<PoolName>CEvent</PoolName>
-							<PoolSize value="4200"/>
+							<PoolSize value="4200" />
 						</Item>
 						<Item>
 							<PoolName>CMoveObject</PoolName>
-							<PoolSize value="500"/>
+							<PoolSize value="500" />
 						</Item>
 						<Item>
 							<PoolName>CMoveAnimatedBuilding</PoolName>
-							<PoolSize value="500"/>
+							<PoolSize value="500" />
 						</Item>
 						<Item>
 							<!-- SHV hardcodes this value to 3072 -->
 							<PoolName>atDScriptObjectNode</PoolName>
-							<PoolSize value="1600"/>
+							<PoolSize value="1600" />
 						</Item>
 						<Item>
 							<!-- Archetypes/model infos have at most one associated fwDynamicArchetypeComponent.  Setting it to the same size as fwArchetypePooledMap should be ok-->
 							<PoolName>fwDynamicArchetypeComponent</PoolName>
-							<PoolSize value="65521"/>
+							<PoolSize value="65521" />
 						</Item>
 						<Item>
 							<PoolName>fwDynamicEntityComponent</PoolName>
-							<PoolSize value="40000"/>
+							<PoolSize value="40000" />
 						</Item>
 						<Item>
 							<PoolName>fwEntityContainer</PoolName>
-							<PoolSize value="1250"/>
+							<PoolSize value="1250" />
 						</Item>
-                        <Item>
+						<Item>
 							<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
-                            <PoolName>fwMatrixTransform</PoolName>
-                            <PoolSize value="30000"/>
-                        </Item>
-                        <Item>
+							<PoolName>fwMatrixTransform</PoolName>
+							<PoolSize value="30000" />
+						</Item>
+						<Item>
 							<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
-                            <PoolName>fwQuaternionTransform</PoolName>
-                            <PoolSize value="12958"/>
-                        </Item>
-                        <Item>
+							<PoolName>fwQuaternionTransform</PoolName>
+							<PoolSize value="12958" />
+						</Item>
+						<Item>
 							<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
-                            <PoolName>fwSimpleTransform</PoolName>
-                            <PoolSize value="37000"/>
-                        </Item>
+							<PoolName>fwSimpleTransform</PoolName>
+							<PoolSize value="37000" />
+						</Item>
 						<Item>
 							<PoolName>ScenarioCarGensPerRegion</PoolName>
-							<PoolSize value="320"/>
+							<PoolSize value="320" />
 						</Item>
 						<Item>
 							<PoolName>ScenarioPointsAndEdgesPerRegion</PoolName>
-							<PoolSize value="2000"/>
+							<PoolSize value="2000" />
 						</Item>
 						<Item>
 							<PoolName>ScenarioPoint</PoolName>
-							<PoolSize value="1800"/>
+							<PoolSize value="1800" />
 						</Item>
 						<Item>
 							<PoolName>ScenarioPointEntity</PoolName>
-							<PoolSize value="700"/>
+							<PoolSize value="700" />
 						</Item>
 						<Item>
 							<PoolName>ScenarioPointWorld</PoolName>
-							<PoolSize value="2800"/>
+							<PoolSize value="2800" />
 						</Item>
 						<Item>
 							<PoolName>MaxNonRegionScenarioPointSpatialObjects</PoolName>
-							<PoolSize value="1800"/>
+							<PoolSize value="1800" />
 						</Item>
 						<Item>
 							<PoolName>ObjectIntelligence</PoolName>
-							<PoolSize value="120"/>
+							<PoolSize value="120" />
 						</Item>
 						<Item>
 							<PoolName>VehicleScenarioAttractors</PoolName>
-							<PoolSize value="64"/>
+							<PoolSize value="64" />
 						</Item>
 						<Item>
 							<PoolName>AircraftFlames</PoolName>
-							<PoolSize value="34"/>
+							<PoolSize value="34" />
 						</Item>
 						<Item>
 							<PoolName>CScenarioPointChainUseInfo</PoolName>
-							<PoolSize value="96"/>
+							<PoolSize value="96" />
 						</Item>
 						<Item>
 							<PoolName>CScenarioClusterSpawnedTrackingData</PoolName>
-							<PoolSize value="190"/>
+							<PoolSize value="190" />
 						</Item>
 						<Item>
 							<PoolName>CSPClusterFSMWrapper</PoolName>
-							<PoolSize value="192"/>
+							<PoolSize value="192" />
 						</Item>
 						<Item>
 							<!-- This value can fix pop-in issues however has a hardcode limit of 65521 -->
 							<PoolName>fwArchetypePooledMap</PoolName>
-							<PoolSize value="65521 "/>
+							<PoolSize value="65521 " />
 						</Item>
 						<Item>
 							<PoolName>CTaskConversationHelper</PoolName>
-							<PoolSize value="4"/>
+							<PoolSize value="4" />
 						</Item>
 						<Item>
 							<PoolName>SyncedScenes</PoolName>
-							<PoolSize value="50"/>
+							<PoolSize value="50" />
 						</Item>
 						<Item>
 							<PoolName>AnimScenes</PoolName>
-							<PoolSize value="10"/>
+							<PoolSize value="10" />
 						</Item>
 						<Item>
 							<PoolName>CPropManagementHelper</PoolName>
-							<PoolSize value="256"/>
+							<PoolSize value="256" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Definitions</PoolName>
-							<PoolSize value="310"/>
+							<PoolSize value="310" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Results</PoolName>
-							<PoolSize value="478"/>
+							<PoolSize value="478" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Impulses</PoolName>
-							<PoolSize value="20"/>
+							<PoolSize value="20" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Interrelations</PoolName>
-							<PoolSize value="61"/>
+							<PoolSize value="61" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Homings</PoolName>
-							<PoolSize value="167"/>
+							<PoolSize value="167" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Damages</PoolName>
-							<PoolSize value="24"/>
+							<PoolSize value="24" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_StrikeBones</PoolName>
-							<PoolSize value="19"/>
+							<PoolSize value="19" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Rumbles</PoolName>
-							<PoolSize value="5"/>
+							<PoolSize value="5" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Branches</PoolName>
-							<PoolSize value="27"/>
+							<PoolSize value="27" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_StealthKills</PoolName>
-							<PoolSize value="10"/>
+							<PoolSize value="10" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_Vfx</PoolName>
-							<PoolSize value="35"/>
+							<PoolSize value="35" />
 						</Item>
 						<Item>
 							<PoolName>ActionTable_FacialAnimSets</PoolName>
-							<PoolSize value="5"/>
+							<PoolSize value="5" />
 						</Item>
 						<Item>
 							<PoolName>NetworkEntityAreas</PoolName>
-							<PoolSize value="200"/>
+							<PoolSize value="200" />
 						</Item>
 						<Item>
 							<PoolName>NavMeshRoute</PoolName>
-							<PoolSize value="1024"/>
+							<PoolSize value="1024" />
 						</Item>
 						<Item>
 							<PoolName>scrGlobals</PoolName>
-							<PoolSize value="15000000"/>
+							<PoolSize value="15000000" />
 						</Item>
 					</Entries>
 				</PoolSizes>
 
 				<ConfigPopulation>
-					<ScenarioPedsMultiplier_Base value="70"/>
-					<ScenarioPedsMultiplier value="100"/>
-					<AmbientPedsMultiplier_Base value="70"/>
-					<AmbientPedsMultiplier value="100"/>
-					<MaxTotalPeds_Base value="70"/>
-					<MaxTotalPeds value="200"/>
-					<PedMemoryMultiplier value="500"/>
-					<PedsForVehicles_Base value="75"/>
-					<PedsForVehicles value="75"/>
-					<VehicleTimesliceMaxUpdatesPerFrame_Base value="4"/>
-					<VehicleTimesliceMaxUpdatesPerFrame value="10"/>
-					<VehicleAmbientDensityMultiplier_Base value="66"/>
-					<VehicleAmbientDensityMultiplier value="100"/>
-					<VehicleMemoryMultiplier value="500"/>
-					<VehicleParkedDensityMultiplier_Base value="50"/>
-					<VehicleParkedDensityMultiplier value="130"/>
-					<VehicleLowPrioParkedDensityMultiplier_Base value="50"/>
-					<VehicleLowPrioParkedDensityMultiplier value="130"/>
-					<VehicleUpperLimit_Base value="50"/>
-					<VehicleUpperLimit value="130"/>
-					<VehicleUpperLimitMP value="60"/>
-					<VehicleParkedUpperLimit_Base value="50"/>
-					<VehicleParkedUpperLimit value="130"/>
-					<VehicleKeyholeShapeInnerThickness_Base value="20"/>
-					<VehicleKeyholeShapeInnerThickness value="20"/>
-					<VehicleKeyholeShapeOuterThickness_Base value="40"/>
-					<VehicleKeyholeShapeOuterThickness value="40"/>
-					<VehicleKeyholeShapeInnerRadius_Base value="80"/>
-					<VehicleKeyholeShapeInnerRadius value="120"/>
-					<VehicleKeyholeShapeOuterRadius_Base value="185"/>
-					<VehicleKeyholeShapeOuterRadius value="215"/>
-					<VehicleKeyholeSideWallThickness_Base value="60"/>
-					<VehicleKeyholeSideWallThickness value="60"/>
-					<VehicleMaxCreationDistance_Base value="225"/>
-					<VehicleMaxCreationDistance value="255"/>
-					<VehicleMaxCreationDistanceOffscreen_Base value="50"/>
-					<VehicleMaxCreationDistanceOffscreen value="50"/>
-					<VehicleCullRange_Base value="251"/>
-					<VehicleCullRange value="311"/>
-					<VehicleCullRangeOnScreenScale_Base value="140"/>
-					<VehicleCullRangeOnScreenScale value="140"/>
-					<VehicleCullRangeOffScreen_Base value="100"/>
-					<VehicleCullRangeOffScreen value="150"/>
-					<DensityBasedRemovalRateScale_Base value="36"/>
-					<DensityBasedRemovalRateScale value="36"/>
-					<DensityBasedRemovalTargetHeadroom_Base value="10"/>
-					<DensityBasedRemovalTargetHeadroom value="10"/>
+					<ScenarioPedsMultiplier_Base value="70" />
+					<ScenarioPedsMultiplier value="100" />
+					<AmbientPedsMultiplier_Base value="70" />
+					<AmbientPedsMultiplier value="100" />
+					<MaxTotalPeds_Base value="70" />
+					<MaxTotalPeds value="200" />
+					<PedMemoryMultiplier value="500" />
+					<PedsForVehicles_Base value="75" />
+					<PedsForVehicles value="75" />
+					<VehicleTimesliceMaxUpdatesPerFrame_Base value="4" />
+					<VehicleTimesliceMaxUpdatesPerFrame value="10" />
+					<VehicleAmbientDensityMultiplier_Base value="66" />
+					<VehicleAmbientDensityMultiplier value="100" />
+					<VehicleMemoryMultiplier value="500" />
+					<VehicleParkedDensityMultiplier_Base value="50" />
+					<VehicleParkedDensityMultiplier value="130" />
+					<VehicleLowPrioParkedDensityMultiplier_Base value="50" />
+					<VehicleLowPrioParkedDensityMultiplier value="130" />
+					<VehicleUpperLimit_Base value="50" />
+					<VehicleUpperLimit value="130" />
+					<VehicleUpperLimitMP value="60" />
+					<VehicleParkedUpperLimit_Base value="50" />
+					<VehicleParkedUpperLimit value="130" />
+					<VehicleKeyholeShapeInnerThickness_Base value="20" />
+					<VehicleKeyholeShapeInnerThickness value="20" />
+					<VehicleKeyholeShapeOuterThickness_Base value="40" />
+					<VehicleKeyholeShapeOuterThickness value="40" />
+					<VehicleKeyholeShapeInnerRadius_Base value="80" />
+					<VehicleKeyholeShapeInnerRadius value="120" />
+					<VehicleKeyholeShapeOuterRadius_Base value="185" />
+					<VehicleKeyholeShapeOuterRadius value="215" />
+					<VehicleKeyholeSideWallThickness_Base value="60" />
+					<VehicleKeyholeSideWallThickness value="60" />
+					<VehicleMaxCreationDistance_Base value="225" />
+					<VehicleMaxCreationDistance value="255" />
+					<VehicleMaxCreationDistanceOffscreen_Base value="50" />
+					<VehicleMaxCreationDistanceOffscreen value="50" />
+					<VehicleCullRange_Base value="251" />
+					<VehicleCullRange value="311" />
+					<VehicleCullRangeOnScreenScale_Base value="140" />
+					<VehicleCullRangeOnScreenScale value="140" />
+					<VehicleCullRangeOffScreen_Base value="100" />
+					<VehicleCullRangeOffScreen value="150" />
+					<DensityBasedRemovalRateScale_Base value="36" />
+					<DensityBasedRemovalRateScale value="36" />
+					<DensityBasedRemovalTargetHeadroom_Base value="10" />
+					<DensityBasedRemovalTargetHeadroom value="10" />
 					<VehicleSpacing_Base>
-						<VehicleSpacing_0_Base value="1"/>
-						<VehicleSpacing_1_Base value="172"/>
-						<VehicleSpacing_2_Base value="150"/>
-						<VehicleSpacing_3_Base value="129"/>
-						<VehicleSpacing_4_Base value="110"/>
-						<VehicleSpacing_5_Base value="88"/>
-						<VehicleSpacing_6_Base value="55"/>
-						<VehicleSpacing_7_Base value="52"/>
-						<VehicleSpacing_8_Base value="45"/>
-						<VehicleSpacing_9_Base value="40"/>
-						<VehicleSpacing_10_Base value="34"/>
-						<VehicleSpacing_11_Base value="27"/>
-						<VehicleSpacing_12_Base value="22"/>
-						<VehicleSpacing_13_Base value="20"/>
-						<VehicleSpacing_14_Base value="19"/>
-						<VehicleSpacing_15_Base value="18"/>
+						<VehicleSpacing_0_Base value="1" />
+						<VehicleSpacing_1_Base value="172" />
+						<VehicleSpacing_2_Base value="150" />
+						<VehicleSpacing_3_Base value="129" />
+						<VehicleSpacing_4_Base value="110" />
+						<VehicleSpacing_5_Base value="88" />
+						<VehicleSpacing_6_Base value="55" />
+						<VehicleSpacing_7_Base value="52" />
+						<VehicleSpacing_8_Base value="45" />
+						<VehicleSpacing_9_Base value="40" />
+						<VehicleSpacing_10_Base value="34" />
+						<VehicleSpacing_11_Base value="27" />
+						<VehicleSpacing_12_Base value="22" />
+						<VehicleSpacing_13_Base value="20" />
+						<VehicleSpacing_14_Base value="19" />
+						<VehicleSpacing_15_Base value="18" />
 					</VehicleSpacing_Base>
 					<VehicleSpacing>
-						<VehicleSpacing_0 value="1"/>
-						<VehicleSpacing_1 value="172"/>
-						<VehicleSpacing_2 value="150"/>
-						<VehicleSpacing_3 value="129"/>
-						<VehicleSpacing_4 value="110"/>
-						<VehicleSpacing_5 value="88"/>
-						<VehicleSpacing_6 value="55"/>
-						<VehicleSpacing_7 value="52"/>
-						<VehicleSpacing_8 value="45"/>
-						<VehicleSpacing_9 value="40"/>
-						<VehicleSpacing_10 value="34"/>
-						<VehicleSpacing_11 value="27"/>
-						<VehicleSpacing_12 value="22"/>
-						<VehicleSpacing_13 value="20"/>
-						<VehicleSpacing_14 value="19"/>
-						<VehicleSpacing_15 value="18"/>
+						<VehicleSpacing_0 value="1" />
+						<VehicleSpacing_1 value="172" />
+						<VehicleSpacing_2 value="150" />
+						<VehicleSpacing_3 value="129" />
+						<VehicleSpacing_4 value="110" />
+						<VehicleSpacing_5 value="88" />
+						<VehicleSpacing_6 value="55" />
+						<VehicleSpacing_7 value="52" />
+						<VehicleSpacing_8 value="45" />
+						<VehicleSpacing_9 value="40" />
+						<VehicleSpacing_10 value="34" />
+						<VehicleSpacing_11 value="27" />
+						<VehicleSpacing_12 value="22" />
+						<VehicleSpacing_13 value="20" />
+						<VehicleSpacing_14 value="19" />
+						<VehicleSpacing_15 value="18" />
 					</VehicleSpacing>
-					<PlayersRoadScanDistance_Base value="300"/>
-					<PlayersRoadScanDistance value="330"/>
+					<PlayersRoadScanDistance_Base value="300" />
+					<PlayersRoadScanDistance value="330" />
 					<PlayerRoadDensityInc_Base>
-						<PlayerRoadDensityInc_0_Base value="0"/>
-						<PlayerRoadDensityInc_1_Base value="0"/>
-						<PlayerRoadDensityInc_2_Base value="0"/>
-						<PlayerRoadDensityInc_3_Base value="0"/>
-						<PlayerRoadDensityInc_4_Base value="0"/>
-						<PlayerRoadDensityInc_5_Base value="0"/>
-						<PlayerRoadDensityInc_6_Base value="0"/>
-						<PlayerRoadDensityInc_7_Base value="0"/>
-						<PlayerRoadDensityInc_8_Base value="0"/>
-						<PlayerRoadDensityInc_9_Base value="0"/>
-						<PlayerRoadDensityInc_10_Base value="0"/>
-						<PlayerRoadDensityInc_11_Base value="0"/>
-						<PlayerRoadDensityInc_12_Base value="0"/>
-						<PlayerRoadDensityInc_13_Base value="0"/>
-						<PlayerRoadDensityInc_14_Base value="0"/>
-						<PlayerRoadDensityInc_15_Base value="0"/>
+						<PlayerRoadDensityInc_0_Base value="0" />
+						<PlayerRoadDensityInc_1_Base value="0" />
+						<PlayerRoadDensityInc_2_Base value="0" />
+						<PlayerRoadDensityInc_3_Base value="0" />
+						<PlayerRoadDensityInc_4_Base value="0" />
+						<PlayerRoadDensityInc_5_Base value="0" />
+						<PlayerRoadDensityInc_6_Base value="0" />
+						<PlayerRoadDensityInc_7_Base value="0" />
+						<PlayerRoadDensityInc_8_Base value="0" />
+						<PlayerRoadDensityInc_9_Base value="0" />
+						<PlayerRoadDensityInc_10_Base value="0" />
+						<PlayerRoadDensityInc_11_Base value="0" />
+						<PlayerRoadDensityInc_12_Base value="0" />
+						<PlayerRoadDensityInc_13_Base value="0" />
+						<PlayerRoadDensityInc_14_Base value="0" />
+						<PlayerRoadDensityInc_15_Base value="0" />
 					</PlayerRoadDensityInc_Base>
 					<PlayerRoadDensityInc>
-						<PlayerRoadDensityInc_0 value="0"/>
-						<PlayerRoadDensityInc_1 value="0"/>
-						<PlayerRoadDensityInc_2 value="0"/>
-						<PlayerRoadDensityInc_3 value="0"/>
-						<PlayerRoadDensityInc_4 value="0"/>
-						<PlayerRoadDensityInc_5 value="0"/>
-						<PlayerRoadDensityInc_6 value="2"/>
-						<PlayerRoadDensityInc_7 value="2"/>
-						<PlayerRoadDensityInc_8 value="2"/>
-						<PlayerRoadDensityInc_9 value="2"/>
-						<PlayerRoadDensityInc_10 value="2"/>
-						<PlayerRoadDensityInc_11 value="1"/>
-						<PlayerRoadDensityInc_12 value="0"/>
-						<PlayerRoadDensityInc_13 value="0"/>
-						<PlayerRoadDensityInc_14 value="0"/>
-						<PlayerRoadDensityInc_15 value="0"/>
+						<PlayerRoadDensityInc_0 value="0" />
+						<PlayerRoadDensityInc_1 value="0" />
+						<PlayerRoadDensityInc_2 value="0" />
+						<PlayerRoadDensityInc_3 value="0" />
+						<PlayerRoadDensityInc_4 value="0" />
+						<PlayerRoadDensityInc_5 value="0" />
+						<PlayerRoadDensityInc_6 value="2" />
+						<PlayerRoadDensityInc_7 value="2" />
+						<PlayerRoadDensityInc_8 value="2" />
+						<PlayerRoadDensityInc_9 value="2" />
+						<PlayerRoadDensityInc_10 value="2" />
+						<PlayerRoadDensityInc_11 value="1" />
+						<PlayerRoadDensityInc_12 value="0" />
+						<PlayerRoadDensityInc_13 value="0" />
+						<PlayerRoadDensityInc_14 value="0" />
+						<PlayerRoadDensityInc_15 value="0" />
 					</PlayerRoadDensityInc>
 					<NonPlayerRoadDensityDec_Base>
-						<NonPlayerRoadDensityDec_0_Base value="0"/>
-						<NonPlayerRoadDensityDec_1_Base value="0"/>
-						<NonPlayerRoadDensityDec_2_Base value="0"/>
-						<NonPlayerRoadDensityDec_3_Base value="1"/>
-						<NonPlayerRoadDensityDec_4_Base value="1"/>
-						<NonPlayerRoadDensityDec_5_Base value="1"/>
-						<NonPlayerRoadDensityDec_6_Base value="1"/>
-						<NonPlayerRoadDensityDec_7_Base value="2"/>
-						<NonPlayerRoadDensityDec_8_Base value="2"/>
-						<NonPlayerRoadDensityDec_9_Base value="2"/>
-						<NonPlayerRoadDensityDec_10_Base value="2"/>
-						<NonPlayerRoadDensityDec_11_Base value="2"/>
-						<NonPlayerRoadDensityDec_12_Base value="3"/>
-						<NonPlayerRoadDensityDec_13_Base value="3"/>
-						<NonPlayerRoadDensityDec_14_Base value="3"/>
-						<NonPlayerRoadDensityDec_15_Base value="3"/>
+						<NonPlayerRoadDensityDec_0_Base value="0" />
+						<NonPlayerRoadDensityDec_1_Base value="0" />
+						<NonPlayerRoadDensityDec_2_Base value="0" />
+						<NonPlayerRoadDensityDec_3_Base value="1" />
+						<NonPlayerRoadDensityDec_4_Base value="1" />
+						<NonPlayerRoadDensityDec_5_Base value="1" />
+						<NonPlayerRoadDensityDec_6_Base value="1" />
+						<NonPlayerRoadDensityDec_7_Base value="2" />
+						<NonPlayerRoadDensityDec_8_Base value="2" />
+						<NonPlayerRoadDensityDec_9_Base value="2" />
+						<NonPlayerRoadDensityDec_10_Base value="2" />
+						<NonPlayerRoadDensityDec_11_Base value="2" />
+						<NonPlayerRoadDensityDec_12_Base value="3" />
+						<NonPlayerRoadDensityDec_13_Base value="3" />
+						<NonPlayerRoadDensityDec_14_Base value="3" />
+						<NonPlayerRoadDensityDec_15_Base value="3" />
 					</NonPlayerRoadDensityDec_Base>
 					<NonPlayerRoadDensityDec>
-						<NonPlayerRoadDensityDec_0 value="0"/>
-						<NonPlayerRoadDensityDec_1 value="0"/>
-						<NonPlayerRoadDensityDec_2 value="0"/>
-						<NonPlayerRoadDensityDec_3 value="0"/>
-						<NonPlayerRoadDensityDec_4 value="0"/>
-						<NonPlayerRoadDensityDec_5 value="0"/>
-						<NonPlayerRoadDensityDec_6 value="0"/>
-						<NonPlayerRoadDensityDec_7 value="0"/>
-						<NonPlayerRoadDensityDec_8 value="0"/>
-						<NonPlayerRoadDensityDec_9 value="0"/>
-						<NonPlayerRoadDensityDec_10 value="0"/>
-						<NonPlayerRoadDensityDec_11 value="1"/>
-						<NonPlayerRoadDensityDec_12 value="2"/>
-						<NonPlayerRoadDensityDec_13 value="3"/>
-						<NonPlayerRoadDensityDec_14 value="4"/>
-						<NonPlayerRoadDensityDec_15 value="5"/>
+						<NonPlayerRoadDensityDec_0 value="0" />
+						<NonPlayerRoadDensityDec_1 value="0" />
+						<NonPlayerRoadDensityDec_2 value="0" />
+						<NonPlayerRoadDensityDec_3 value="0" />
+						<NonPlayerRoadDensityDec_4 value="0" />
+						<NonPlayerRoadDensityDec_5 value="0" />
+						<NonPlayerRoadDensityDec_6 value="0" />
+						<NonPlayerRoadDensityDec_7 value="0" />
+						<NonPlayerRoadDensityDec_8 value="0" />
+						<NonPlayerRoadDensityDec_9 value="0" />
+						<NonPlayerRoadDensityDec_10 value="0" />
+						<NonPlayerRoadDensityDec_11 value="1" />
+						<NonPlayerRoadDensityDec_12 value="2" />
+						<NonPlayerRoadDensityDec_13 value="3" />
+						<NonPlayerRoadDensityDec_14 value="4" />
+						<NonPlayerRoadDensityDec_15 value="5" />
 					</NonPlayerRoadDensityDec>
-					<VehiclePopulationFrameRate_Base value="20"/>
-					<VehiclePopulationFrameRate value="25"/>
-					<VehiclePopulationCyclesPerFrame_Base value="1"/>
-					<VehiclePopulationCyclesPerFrame value="1"/>
-					<VehiclePopulationFrameRateMP_Base value="15"/>
-					<VehiclePopulationFrameRateMP value="20"/>
-					<VehiclePopulationCyclesPerFrameMP_Base value="1"/>
-					<VehiclePopulationCyclesPerFrameMP value="1"/>
-					<PedPopulationFrameRate_Base value="20"/>
-					<PedPopulationFrameRate value="25"/>
-					<PedPopulationCyclesPerFrame_Base value="1"/>
-					<PedPopulationCyclesPerFrame value="1"/>
-					<PedPopulationFrameRateMP_Base value="15"/>
-					<PedPopulationFrameRateMP value="20"/>
-					<PedPopulationCyclesPerFrameMP_Base value="1"/>
-					<PedPopulationCyclesPerFrameMP value="1"/>
+					<VehiclePopulationFrameRate_Base value="20" />
+					<VehiclePopulationFrameRate value="25" />
+					<VehiclePopulationCyclesPerFrame_Base value="1" />
+					<VehiclePopulationCyclesPerFrame value="1" />
+					<VehiclePopulationFrameRateMP_Base value="15" />
+					<VehiclePopulationFrameRateMP value="20" />
+					<VehiclePopulationCyclesPerFrameMP_Base value="1" />
+					<VehiclePopulationCyclesPerFrameMP value="1" />
+					<PedPopulationFrameRate_Base value="20" />
+					<PedPopulationFrameRate value="25" />
+					<PedPopulationCyclesPerFrame_Base value="1" />
+					<PedPopulationCyclesPerFrame value="1" />
+					<PedPopulationFrameRateMP_Base value="15" />
+					<PedPopulationFrameRateMP value="20" />
+					<PedPopulationCyclesPerFrameMP_Base value="1" />
+					<PedPopulationCyclesPerFrameMP value="1" />
 				</ConfigPopulation>
 
 				<Config2dEffects>
-					<MaxAttrsAudio value="280"/>
-					<MaxAttrsBuoyancy value="100"/>
-					<MaxAttrsDecal value="200"/>
-					<MaxAttrsExplosion value="200"/>
-					<MaxAttrsLadder value="122"/>
-					<MaxAttrsLightShaft value="1000"/>
-					<MaxAttrsParticle value="5000"/>
-					<MaxAttrsProcObj value="200"/>
-					<MaxAttrsScrollBar value="1"/>
-					<MaxAttrsSpawnPoint value="1000"/>
-					<MaxAttrsWindDisturbance value="100"/>
-					<MaxAttrsWorldPoint value="1000"/>
-					<MaxEffectsWorld2d value="1000"/>
+					<MaxAttrsAudio value="280" />
+					<MaxAttrsBuoyancy value="100" />
+					<MaxAttrsDecal value="200" />
+					<MaxAttrsExplosion value="200" />
+					<MaxAttrsLadder value="122" />
+					<MaxAttrsLightShaft value="1000" />
+					<MaxAttrsParticle value="5000" />
+					<MaxAttrsProcObj value="200" />
+					<MaxAttrsScrollBar value="1" />
+					<MaxAttrsSpawnPoint value="1000" />
+					<MaxAttrsWindDisturbance value="100" />
+					<MaxAttrsWorldPoint value="1000" />
+					<MaxEffectsWorld2d value="1000" />
 					<!-- R* cap = 0 <MaxClothCollisionsExtensions value="0"/> : Doesn't appear to be used-->
 				</Config2dEffects>
 
 				<ConfigModelInfo>
 					<defaultPlayerName>player_zero</defaultPlayerName>
 					<defaultProloguePlayerName>csb_prolsec</defaultProloguePlayerName>
-					<MaxBaseModelInfos value="2"/>
-					<MaxCompEntityModelInfos value="500"/>
-					<MaxMloInstances value="28000"/>
-					<MaxMloModelInfos value="5000"/>
-					<MaxPedModelInfos value="5000"/>
-					<MaxTimeModelInfos value="1800"/>
-					<MaxVehicleModelInfos value="5000"/>
-					<MaxWeaponModelInfos value="5000"/>
-					<MaxExtraPedModelInfos value="5110"/>
-					<MaxExtraVehicleModelInfos value="5050"/>
-					<MaxExtraWeaponModelInfos value="5020"/>
+					<MaxBaseModelInfos value="2" />
+					<MaxCompEntityModelInfos value="500" />
+					<MaxMloInstances value="28000" />
+					<MaxMloModelInfos value="5000" />
+					<MaxPedModelInfos value="5000" />
+					<MaxTimeModelInfos value="1800" />
+					<MaxVehicleModelInfos value="5000" />
+					<MaxWeaponModelInfos value="5000" />
+					<MaxExtraPedModelInfos value="5110" />
+					<MaxExtraVehicleModelInfos value="5050" />
+					<MaxExtraWeaponModelInfos value="5020" />
 				</ConfigModelInfo>
 
 				<ConfigExtensions>
-					<MaxDoorExtensions value="75"/>
-					<MaxLightExtensions value="1024"/>
-					<MaxSpawnPointOverrideExtensions value="255"/>
-					<MaxExpressionExtensions value="255"/>
+					<MaxDoorExtensions value="75" />
+					<MaxLightExtensions value="1024" />
+					<MaxSpawnPointOverrideExtensions value="255" />
+					<MaxExpressionExtensions value="255" />
 				</ConfigExtensions>
 
 				<ConfigStreamingEngine>
-					<ArchiveCount value="5256"/>
-					<PhysicalStreamingBuffer value="252"/>
-					<VirtualStreamingBuffer value="1000"/>
+					<ArchiveCount value="5256" />
+					<PhysicalStreamingBuffer value="252" />
+					<VirtualStreamingBuffer value="1000" />
 				</ConfigStreamingEngine>
 
 				<UseVehicleBurnoutTexture>CB_TRUE</UseVehicleBurnoutTexture>
@@ -1073,123 +1073,123 @@ in this file and decrease the value.
 
 				<ConfigOnlineServices>
 					<RosTitleName>gta5</RosTitleName>
-					<RosTitleVersion value="11"/>
-					<RosScVersion value="11"/>
-					<SteamAppId value="271590"/>
+					<RosTitleVersion value="11" />
+					<RosScVersion value="11" />
+					<SteamAppId value="271590" />
 					<TitleDirectoryName>GTA V</TitleDirectoryName>
 					<MultiplayerSessionTemplateName>SsnTemplateOpen</MultiplayerSessionTemplateName>
 					<ScAuthTitleId>gtav</ScAuthTitleId>
 				</ConfigOnlineServices>
 
 				<ConfigUGCDescriptions>
-					<MaxDescriptionLength value="255"/>
-					<MaxNumDescriptions value="640"/>
-					<SizeOfDescriptionBuffer value="60000"/>
+					<MaxDescriptionLength value="255" />
+					<MaxNumDescriptions value="640" />
+					<SizeOfDescriptionBuffer value="60000" />
 				</ConfigUGCDescriptions>
 
 				<ConfigNetScriptBroadcastData>
 					<HostBroadcastData>
 						<Item>
-							<SizeOfData value="14000"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="5"/>
+							<SizeOfData value="14000" />
+							<MaxParticipants value="32" />
+							<NumInstances value="5" />
 						</Item>
 						<Item>
-							<SizeOfData value="6500"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="6"/>
+							<SizeOfData value="6500" />
+							<MaxParticipants value="32" />
+							<NumInstances value="6" />
 						</Item>
 						<Item>
-							<SizeOfData value="4000"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="6"/>
+							<SizeOfData value="4000" />
+							<MaxParticipants value="32" />
+							<NumInstances value="6" />
 						</Item>
 						<Item>
-							<SizeOfData value="2000"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="2"/>
+							<SizeOfData value="2000" />
+							<MaxParticipants value="32" />
+							<NumInstances value="2" />
 						</Item>
 						<Item>
-							<SizeOfData value="1500"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="4"/>
+							<SizeOfData value="1500" />
+							<MaxParticipants value="32" />
+							<NumInstances value="4" />
 						</Item>
 						<Item>
-							<SizeOfData value="1000"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="10"/>
+							<SizeOfData value="1000" />
+							<MaxParticipants value="32" />
+							<NumInstances value="10" />
 						</Item>
 						<Item>
-							<SizeOfData value="500"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="4"/>
+							<SizeOfData value="500" />
+							<MaxParticipants value="32" />
+							<NumInstances value="4" />
 						</Item>
 						<Item>
-							<SizeOfData value="250"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="4"/>
+							<SizeOfData value="250" />
+							<MaxParticipants value="32" />
+							<NumInstances value="4" />
 						</Item>
 						<Item>
-							<SizeOfData value="120"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="6"/>
+							<SizeOfData value="120" />
+							<MaxParticipants value="32" />
+							<NumInstances value="6" />
 						</Item>
 						<Item>
-							<SizeOfData value="60"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="6"/>
+							<SizeOfData value="60" />
+							<MaxParticipants value="32" />
+							<NumInstances value="6" />
 						</Item>
 					</HostBroadcastData>
 					<PlayerBroadcastData>
 						<Item>
-							<SizeOfData value="3600"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="1"/>
+							<SizeOfData value="3600" />
+							<MaxParticipants value="32" />
+							<NumInstances value="1" />
 						</Item>
 						<Item>
-							<SizeOfData value="2500"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="2"/>
+							<SizeOfData value="2500" />
+							<MaxParticipants value="32" />
+							<NumInstances value="2" />
 						</Item>
 						<Item>
-							<SizeOfData value="1400"/>
-							<MaxParticipants value="32"/>
-                            <NumInstances value="6"/>
-                        </Item>
-                        <Item>
-                            <SizeOfData value="600"/>
-                            <MaxParticipants value="32"/>
-                            <NumInstances value="2"/>
-                        </Item>
-                        <Item>
-                            <SizeOfData value="500"/>
-                            <MaxParticipants value="32"/>
-                            <NumInstances value="3"/>
-                        </Item>
-                        <Item>
-                            <SizeOfData value="400"/>
-                            <MaxParticipants value="32"/>
-                            <NumInstances value="5"/>
-                        </Item>
-                        <Item>
-                            <SizeOfData value="150"/>
-                            <MaxParticipants value="32"/>
-                            <NumInstances value="6"/>
-                        </Item>
-                        <Item>
-                            <SizeOfData value="84"/>
-                            <MaxParticipants value="32"/>
-                            <NumInstances value="5"/>
+							<SizeOfData value="1400" />
+							<MaxParticipants value="32" />
+							<NumInstances value="6" />
 						</Item>
 						<Item>
-							<SizeOfData value="40"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="8"/>
+							<SizeOfData value="600" />
+							<MaxParticipants value="32" />
+							<NumInstances value="2" />
 						</Item>
 						<Item>
-							<SizeOfData value="16"/>
-							<MaxParticipants value="32"/>
-							<NumInstances value="16"/>
+							<SizeOfData value="500" />
+							<MaxParticipants value="32" />
+							<NumInstances value="3" />
+						</Item>
+						<Item>
+							<SizeOfData value="400" />
+							<MaxParticipants value="32" />
+							<NumInstances value="5" />
+						</Item>
+						<Item>
+							<SizeOfData value="150" />
+							<MaxParticipants value="32" />
+							<NumInstances value="6" />
+						</Item>
+						<Item>
+							<SizeOfData value="84" />
+							<MaxParticipants value="32" />
+							<NumInstances value="5" />
+						</Item>
+						<Item>
+							<SizeOfData value="40" />
+							<MaxParticipants value="32" />
+							<NumInstances value="8" />
+						</Item>
+						<Item>
+							<SizeOfData value="16" />
+							<MaxParticipants value="32" />
+							<NumInstances value="16" />
 						</Item>
 					</PlayerBroadcastData>
 				</ConfigNetScriptBroadcastData>
@@ -1198,146 +1198,146 @@ in this file and decrease the value.
 					<StackSizeData>
 						<Item>
 							<StackName>MICRO</StackName>
-							<SizeOfStack value="128"/>
-							<NumberOfStacksOfThisSize value="20"/>
+							<SizeOfStack value="128" />
+							<NumberOfStacksOfThisSize value="20" />
 						</Item>
 						<Item>
 							<StackName>MINI</StackName>
-							<SizeOfStack value="512"/>
-							<NumberOfStacksOfThisSize value="20"/>
+							<SizeOfStack value="512" />
+							<NumberOfStacksOfThisSize value="20" />
 						</Item>
 						<Item>
 							<StackName>DEFAULT</StackName>
-							<SizeOfStack value="1424"/> 
-							<NumberOfStacksOfThisSize value="68"/>
+							<SizeOfStack value="1424" />
+							<NumberOfStacksOfThisSize value="68" />
 						</Item>
 						<Item>
 							<StackName>SPECIAL_ABILITY</StackName>
-							<SizeOfStack value="1828"/>
-							<NumberOfStacksOfThisSize value="13"/>
+							<SizeOfStack value="1828" />
+							<NumberOfStacksOfThisSize value="13" />
 						</Item>
 						<Item>
 							<StackName>FRIEND</StackName>
-							<SizeOfStack value="2050"/>
-							<NumberOfStacksOfThisSize value="12"/>
+							<SizeOfStack value="2050" />
+							<NumberOfStacksOfThisSize value="12" />
 						</Item>
 						<Item>
 							<StackName>SHOP</StackName>
-							<SizeOfStack value="2324"/>
-							<NumberOfStacksOfThisSize value="6"/>
+							<SizeOfStack value="2324" />
+							<NumberOfStacksOfThisSize value="6" />
 						</Item>
 						<Item>
 							<StackName>CELLPHONE</StackName>
-							<SizeOfStack value="2552"/>
-							<NumberOfStacksOfThisSize value="2"/>
+							<SizeOfStack value="2552" />
+							<NumberOfStacksOfThisSize value="2" />
 						</Item>
 						<Item>
 							<StackName>VEHICLE_SPAWN</StackName>
-							<SizeOfStack value="3868"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="3868" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>CAR_MOD_SHOP</StackName>
-							<SizeOfStack value="3600"/>
-							<NumberOfStacksOfThisSize value="2"/>
+							<SizeOfStack value="3600" />
+							<NumberOfStacksOfThisSize value="2" />
 						</Item>
 						<Item>
 							<StackName>PAUSE_MENU_SCRIPT</StackName>
-							<SizeOfStack value="3076"/>
-							<NumberOfStacksOfThisSize value="2"/>
+							<SizeOfStack value="3076" />
+							<NumberOfStacksOfThisSize value="2" />
 						</Item>
 						<Item>
-						  <StackName>APP_INTERNET</StackName>
-						  <SizeOfStack value="4592"/>
-						  <NumberOfStacksOfThisSize value="1"/>
+							<StackName>APP_INTERNET</StackName>
+							<SizeOfStack value="4592" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>MULTIPLAYER_MISSION</StackName>
-							<SizeOfStack value="4500"/>
-							<NumberOfStacksOfThisSize value="19"/>
+							<SizeOfStack value="4500" />
+							<NumberOfStacksOfThisSize value="19" />
 						</Item>
 						<Item>
 							<StackName>CONTACTS_APP</StackName>
-							<SizeOfStack value="4000"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="4000" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
-						  <StackName>INTERACTION_MENU</StackName>
-						  <SizeOfStack value="9800"/>
-						  <NumberOfStacksOfThisSize value="1"/>
+							<StackName>INTERACTION_MENU</StackName>
+							<SizeOfStack value="9800" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>SCRIPT_XML</StackName>
-							<SizeOfStack value="8500"/>
-							<NumberOfStacksOfThisSize value="4"/>
+							<SizeOfStack value="8500" />
+							<NumberOfStacksOfThisSize value="4" />
 						</Item>
 						<Item>
 							<StackName>PROPERTY_INT</StackName>
-							<SizeOfStack value="19400"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="19400" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>ACTIVITY_CREATOR_INT</StackName>
-							<SizeOfStack value="15900"/>
-							<NumberOfStacksOfThisSize value="3"/>
+							<SizeOfStack value="15900" />
+							<NumberOfStacksOfThisSize value="3" />
 						</Item>
 						<Item>
 							<StackName>SMPL_INTERIOR</StackName>
-							<SizeOfStack value="6500"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="6500" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>WAREHOUSE</StackName>
-							<SizeOfStack value="14000"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="14000" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>IE_DELIVERY</StackName>
-							<SizeOfStack value="2324"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="2324" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>SHOP_CONTROLLER</StackName>
-							<SizeOfStack value="3200"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="3200" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>AM_MP_YACHT</StackName>
-							<SizeOfStack value="5000"/>
-							<NumberOfStacksOfThisSize value="3"/>
+							<SizeOfStack value="5000" />
+							<NumberOfStacksOfThisSize value="3" />
 						</Item>
 						<Item>
 							<StackName>INGAMEHUD</StackName>
-							<SizeOfStack value="4600"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="4600" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>TRANSITION</StackName>
-							<SizeOfStack value="8032"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="8032" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>FMMC_LAUNCHER</StackName>
-                            <SizeOfStack value="21000"/>
-                            <NumberOfStacksOfThisSize value="1"/>
-                        </Item>
-                        <Item>
-                            <StackName>MULTIPLAYER_FREEMODE</StackName>
-                            <SizeOfStack value="66000"/>
-                            <NumberOfStacksOfThisSize value="1"/>
-                        </Item>
-                        <Item>
-                            <StackName>MISSION</StackName>
-                            <SizeOfStack value="44500"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="21000" />
+							<NumberOfStacksOfThisSize value="1" />
+						</Item>
+						<Item>
+							<StackName>MULTIPLAYER_FREEMODE</StackName>
+							<SizeOfStack value="66000" />
+							<NumberOfStacksOfThisSize value="1" />
+						</Item>
+						<Item>
+							<StackName>MISSION</StackName>
+							<SizeOfStack value="44500" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>MP_LAUNCH_SCRIPT</StackName>
-							<SizeOfStack value="33500"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="33500" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
-						
-						
+
+
 					</StackSizeData>
 				</ConfigScriptStackSizes>
 
@@ -1345,15 +1345,15 @@ in this file and decrease the value.
 					<ArrayOfMaximumTextLines>
 						<Item>
 							<NameOfScriptTextLine>ScriptTextLinesZeroOrOneNumbers</NameOfScriptTextLine>
-							<MaximumNumber value="160"/>
+							<MaximumNumber value="160" />
 						</Item>
 						<Item>
 							<NameOfScriptTextLine>ScriptTextLinesOneSubstring</NameOfScriptTextLine>
-							<MaximumNumber value="144"/>
+							<MaximumNumber value="144" />
 						</Item>
 						<Item>
 							<NameOfScriptTextLine>ScriptTextLinesFourSubstringsThreeNumbers</NameOfScriptTextLine>
-							<MaximumNumber value="25"/>
+							<MaximumNumber value="25" />
 						</Item>
 					</ArrayOfMaximumTextLines>
 				</ConfigScriptTextLines>
@@ -1367,11 +1367,11 @@ in this file and decrease the value.
 			<Platforms>Any</Platforms>
 			<Config type="CGameConfig">
 				<ConfigStreamingEngine>
-					<PhysicalStreamingBuffer value="252"/>
+					<PhysicalStreamingBuffer value="252" />
 				</ConfigStreamingEngine>
 			</Config>
 		</Item>
-		
+
 		<!-- Beta configuration overrides -->
 		<Item>
 			<Build>beta</Build>
@@ -1382,12 +1382,12 @@ in this file and decrease the value.
 						<!-- test_startup creates lots of peds and cars around Pershing Square -->
 						<Item>
 							<PoolName>CScriptEntityExtension</PoolName>
-							<PoolSize value="700"/>
+							<PoolSize value="700" />
 						</Item>
 					</Entries>
 				</PoolSizes>
 				<ConfigStreamingEngine>
-					<PhysicalStreamingBuffer value="252"/>
+					<PhysicalStreamingBuffer value="252" />
 				</ConfigStreamingEngine>
 			</Config>
 		</Item>
@@ -1401,569 +1401,569 @@ in this file and decrease the value.
 				<PoolSizes>
 					<Entries>
 						<!-- fatcuts needs a bigger animation pool -->
-							<Item>
-								<PoolName>AnimStore</PoolName>
-								<PoolSize value="15000"/>
-							</Item>
-							<Item>
-								<PoolName>CutSceneStore</PoolName>
-								<PoolSize value="15000"/>
-							</Item>
+						<Item>
+							<PoolName>AnimStore</PoolName>
+							<PoolSize value="15000" />
+						</Item>
+						<Item>
+							<PoolName>CutSceneStore</PoolName>
+							<PoolSize value="15000" />
+						</Item>
 					</Entries>
 				</PoolSizes>
 			</Config>
 		</Item>
 
-    <Item>
+		<Item>
 			<Build>any</Build>
 			<Platforms>xboxone</Platforms>
 			<Config type="CGameConfig">
-			<PoolSizes>
-				<Entries>
-					<Item>
-						<PoolName>OcclusionPathNode</PoolName>	
-						<PoolSize value="3450"/>
-					</Item>
-					<Item>
-						<PoolName>OcclusionPortalInfo</PoolName>
-						<PoolSize value="400"/>
-					</Item>
-				</Entries>
-			</PoolSizes>
+				<PoolSizes>
+					<Entries>
+						<Item>
+							<PoolName>OcclusionPathNode</PoolName>
+							<PoolSize value="3450" />
+						</Item>
+						<Item>
+							<PoolName>OcclusionPortalInfo</PoolName>
+							<PoolSize value="400" />
+						</Item>
+					</Entries>
+				</PoolSizes>
 				<ConfigStreamingEngine>
-					<PhysicalStreamingBuffer value="2384"/>
-					<VirtualStreamingBuffer value="0"/>
+					<PhysicalStreamingBuffer value="2384" />
+					<VirtualStreamingBuffer value="0" />
 				</ConfigStreamingEngine>
-        <ConfigMediaTranscoding>
-          <TranscodingSmallObjectBuffer value="4096"/>
-          <TranscodingSmallObjectMaxPointers value="6144"/>
-          <TranscodingBuffer value="24000"/>
-          <TranscodingMaxPointers value="256"/>
-        </ConfigMediaTranscoding>
-        <Threads>
-          <Item key="Update">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="0"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="AsyncShapeTestMgr">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RmptfxUpdateThread">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="ControlMgrUpdateThread">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecordingThreadDefault">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="ReplayQuantizeThread">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecordingThreadGameAndObject">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="MediaEncoderThreadAudio">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageDvdReader">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageHddReader">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecorderWorkerThread">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecordingThreadPed">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="PathServer">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="Render">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="NetLogSpooler">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="NetRelay">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageLogfile">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageNetTcpWorker">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageAudioMixThread">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageAudioEngineThread">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="SaveBlockDataThread">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageDvdStreamer">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageHddStreamer">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecordingThreadVehicle">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="NorthAudioUpdate">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageNetSend">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageNetRecv">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageVoiceChatWorker">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="MediaEncoderThreadVideo">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="MediaDecoderThread">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="ReplayFileManager">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="ResourcePlacementThread">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-        </Threads>
+				<ConfigMediaTranscoding>
+					<TranscodingSmallObjectBuffer value="4096" />
+					<TranscodingSmallObjectMaxPointers value="6144" />
+					<TranscodingBuffer value="24000" />
+					<TranscodingMaxPointers value="256" />
+				</ConfigMediaTranscoding>
+				<Threads>
+					<Item key="Update">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="0" />
+						</CpuAffinity>
+					</Item>
+					<Item key="AsyncShapeTestMgr">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RmptfxUpdateThread">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="ControlMgrUpdateThread">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecordingThreadDefault">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="ReplayQuantizeThread">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecordingThreadGameAndObject">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="MediaEncoderThreadAudio">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageDvdReader">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageHddReader">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecorderWorkerThread">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecordingThreadPed">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="PathServer">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="Render">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="NetLogSpooler">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="NetRelay">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageLogfile">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageNetTcpWorker">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageAudioMixThread">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageAudioEngineThread">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="SaveBlockDataThread">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageDvdStreamer">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageHddStreamer">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecordingThreadVehicle">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="NorthAudioUpdate">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageNetSend">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageNetRecv">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageVoiceChatWorker">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="MediaEncoderThreadVideo">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="MediaDecoderThread">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="ReplayFileManager">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="ResourcePlacementThread">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+				</Threads>
 			</Config>
 		</Item>
 
-    <Item>
+		<Item>
 			<Build>any</Build>
 			<Platforms>ps4</Platforms>
-      <Config type="CGameConfig">
+			<Config type="CGameConfig">
 				<PoolSizes>
-          <Entries>
-            <Item>
-              <PoolName>CTask</PoolName>
-              <PoolSize value="2100"/>
-            </Item>
-			<Item>
-				<PoolName>OcclusionPathNode</PoolName>
-				<PoolSize value="3450"/>
-			</Item>
-			<Item>
-				<PoolName>OcclusionPortalInfo</PoolName>
-				<PoolSize value="400"/>
-			</Item>
-          </Entries>
-        </PoolSizes>
+					<Entries>
+						<Item>
+							<PoolName>CTask</PoolName>
+							<PoolSize value="2100" />
+						</Item>
+						<Item>
+							<PoolName>OcclusionPathNode</PoolName>
+							<PoolSize value="3450" />
+						</Item>
+						<Item>
+							<PoolName>OcclusionPortalInfo</PoolName>
+							<PoolSize value="400" />
+						</Item>
+					</Entries>
+				</PoolSizes>
 				<ConfigStreamingEngine>
-					<PhysicalStreamingBuffer value="2384"/>
-					<VirtualStreamingBuffer value="0"/>
+					<PhysicalStreamingBuffer value="2384" />
+					<VirtualStreamingBuffer value="0" />
 				</ConfigStreamingEngine>
-        <Threads>
-          <Item key="Update">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="0"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="ControlMgrUpdateThread">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="AsyncShapeTestMgr">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageDvdReader">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecordingThreadDefault">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="ReplayQuantizeThread">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecordingThreadGameAndObject">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-		  <Item key="MediaEncoderThreadAudio">
-            <Priority>PRIO_LOWEST</Priority>
-			<CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageAudioEngineThread">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageHddReader">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RmptfxUpdateThread">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecordingThreadPed">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="PathServer">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="2"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageGpuSubmit">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RecordingThreadVehicle">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="NetLogSpooler">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="NetRelay">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageLogfile">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageNetTcpWorker">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="ResourcePlacementThread">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="3"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageAudioMixThread">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="SaveBlockDataThread">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageDvdStreamer">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageHddStreamer">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="4"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="Render">
-            <Priority>PRIO_HIGHEST</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="NorthAudioUpdate">
-            <Priority>PRIO_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageNetSend">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageNetRecv">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageVoiceChatWorker">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-		  <Item key="MediaEncoderThreadVideo">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="ReplayFileManager">
-            <Priority>PRIO_LOWEST</Priority>
-            <CpuAffinity>
-                <Core value="5"/>
-			</CpuAffinity>
-          </Item>
-        </Threads>
+				<Threads>
+					<Item key="Update">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="0" />
+						</CpuAffinity>
+					</Item>
+					<Item key="ControlMgrUpdateThread">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="AsyncShapeTestMgr">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageDvdReader">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecordingThreadDefault">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="ReplayQuantizeThread">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecordingThreadGameAndObject">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="MediaEncoderThreadAudio">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageAudioEngineThread">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageHddReader">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RmptfxUpdateThread">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecordingThreadPed">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="PathServer">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="2" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageGpuSubmit">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RecordingThreadVehicle">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="NetLogSpooler">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="NetRelay">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageLogfile">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageNetTcpWorker">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="ResourcePlacementThread">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="3" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageAudioMixThread">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="SaveBlockDataThread">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageDvdStreamer">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageHddStreamer">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="4" />
+						</CpuAffinity>
+					</Item>
+					<Item key="Render">
+						<Priority>PRIO_HIGHEST</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="NorthAudioUpdate">
+						<Priority>PRIO_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageNetSend">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageNetRecv">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageVoiceChatWorker">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="MediaEncoderThreadVideo">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+					<Item key="ReplayFileManager">
+						<Priority>PRIO_LOWEST</Priority>
+						<CpuAffinity>
+							<Core value="5" />
+						</CpuAffinity>
+					</Item>
+				</Threads>
 			</Config>
 		</Item>
-    <Item>
-      <Build>Debug</Build>
+		<Item>
+			<Build>Debug</Build>
 			<Platforms>ps4</Platforms>
 			<Config type="CGameConfig">
-        <Threads>
-          <Item key="RageNetSend">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageNetRecv">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="RageVoiceChatWorker">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-          <Item key="PathServer">
-            <Priority>PRIO_IDLE</Priority>
-            <CpuAffinity>
-                <Core value="1"/>
-			</CpuAffinity>
-          </Item>
-        </Threads>
+				<Threads>
+					<Item key="RageNetSend">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageNetRecv">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="RageVoiceChatWorker">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+					<Item key="PathServer">
+						<Priority>PRIO_IDLE</Priority>
+						<CpuAffinity>
+							<Core value="1" />
+						</CpuAffinity>
+					</Item>
+				</Threads>
 			</Config>
 		</Item>
 
-    <Item>
-      <Build>any</Build>
-      <Platforms>x64</Platforms>
-      <Config type="CGameConfig">
-        <Threads>
-          <Item key="Update">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-          </Item>
-          <Item key="ControlMgrUpdateThread">
-            <Priority>PRIO_HIGHEST</Priority>
-          </Item>
-          <Item key="AsyncShapeTestMgr">
-            <Priority>PRIO_HIGHEST</Priority>
-          </Item>
-          <Item key="RageDvdReader">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-          </Item>
-          <Item key="RecordingThreadDefault">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-          </Item>
-          <Item key="ReplayQuantizeThread">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-          </Item>
-          <Item key="RecordingThreadGameAndObject">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-          </Item>
-          <Item key="RageAudioEngineThread">
-            <Priority>PRIO_NORMAL</Priority>
-          </Item>
-          <Item key="RageHddReader">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-          </Item>
-          <Item key="RmptfxUpdateThread">
-            <Priority>PRIO_HIGHEST</Priority>
-          </Item>
-          <Item key="RecordingThreadPed">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-          </Item>
-          <Item key="PathServer">
-            <Priority>PRIO_LOWEST</Priority>
-          </Item>
-          <Item key="RecordingThreadVehicle">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-          </Item>
-          <Item key="ResourcePlacementThread">
-            <Priority>PRIO_LOWEST</Priority>
-          </Item>
-          <Item key="RageAudioMixThread">
-            <Priority>PRIO_TIME_CRITICAL</Priority>
-          </Item>
-          <Item key="SaveBlockDataThread">
-            <Priority>PRIO_NORMAL</Priority>
-          </Item>
-          <Item key="RageDvdStreamer">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-          </Item>
-          <Item key="RageHddStreamer">
-            <Priority>PRIO_LOWEST</Priority>
-          </Item>
-          <Item key="Render">
-            <Priority>PRIO_ABOVE_NORMAL</Priority>
-          </Item>
-          <Item key="NorthAudioUpdate">
-            <Priority>PRIO_NORMAL</Priority>
-          </Item>
-          <Item key="RageNetSend">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-          </Item>
-          <Item key="RageNetRecv">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-          </Item>
-          <Item key="RageVoiceChatWorker">
-            <Priority>PRIO_BELOW_NORMAL</Priority>
-          </Item>
-          <Item key="ReplayFileManager">
-            <Priority>PRIO_LOWEST</Priority>
-          </Item>
-        </Threads>
-      </Config>
-    </Item>
+		<Item>
+			<Build>any</Build>
+			<Platforms>x64</Platforms>
+			<Config type="CGameConfig">
+				<Threads>
+					<Item key="Update">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+					</Item>
+					<Item key="ControlMgrUpdateThread">
+						<Priority>PRIO_HIGHEST</Priority>
+					</Item>
+					<Item key="AsyncShapeTestMgr">
+						<Priority>PRIO_HIGHEST</Priority>
+					</Item>
+					<Item key="RageDvdReader">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+					</Item>
+					<Item key="RecordingThreadDefault">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+					</Item>
+					<Item key="ReplayQuantizeThread">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+					</Item>
+					<Item key="RecordingThreadGameAndObject">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+					</Item>
+					<Item key="RageAudioEngineThread">
+						<Priority>PRIO_NORMAL</Priority>
+					</Item>
+					<Item key="RageHddReader">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+					</Item>
+					<Item key="RmptfxUpdateThread">
+						<Priority>PRIO_HIGHEST</Priority>
+					</Item>
+					<Item key="RecordingThreadPed">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+					</Item>
+					<Item key="PathServer">
+						<Priority>PRIO_LOWEST</Priority>
+					</Item>
+					<Item key="RecordingThreadVehicle">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+					</Item>
+					<Item key="ResourcePlacementThread">
+						<Priority>PRIO_LOWEST</Priority>
+					</Item>
+					<Item key="RageAudioMixThread">
+						<Priority>PRIO_TIME_CRITICAL</Priority>
+					</Item>
+					<Item key="SaveBlockDataThread">
+						<Priority>PRIO_NORMAL</Priority>
+					</Item>
+					<Item key="RageDvdStreamer">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+					</Item>
+					<Item key="RageHddStreamer">
+						<Priority>PRIO_LOWEST</Priority>
+					</Item>
+					<Item key="Render">
+						<Priority>PRIO_ABOVE_NORMAL</Priority>
+					</Item>
+					<Item key="NorthAudioUpdate">
+						<Priority>PRIO_NORMAL</Priority>
+					</Item>
+					<Item key="RageNetSend">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+					</Item>
+					<Item key="RageNetRecv">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+					</Item>
+					<Item key="RageVoiceChatWorker">
+						<Priority>PRIO_BELOW_NORMAL</Priority>
+					</Item>
+					<Item key="ReplayFileManager">
+						<Priority>PRIO_LOWEST</Priority>
+					</Item>
+				</Threads>
+			</Config>
+		</Item>
 		<Item>
 			<Build>nonfinal</Build>
 			<Platforms>any</Platforms>
@@ -1972,23 +1972,23 @@ in this file and decrease the value.
 					<StackSizeData>
 						<Item>
 							<StackName>DEBUG_SCRIPT</StackName>
-							<SizeOfStack value="4080"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="4080" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>SOAK_TEST</StackName>
-							<SizeOfStack value="4088"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="4088" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 						<Item>
 							<StackName>NETWORK_BOT</StackName>
-							<SizeOfStack value="4096"/>
-							<NumberOfStacksOfThisSize value="31"/>
+							<SizeOfStack value="4096" />
+							<NumberOfStacksOfThisSize value="31" />
 						</Item>
 						<Item>
 							<StackName>DEBUG_MENU</StackName>
-							<SizeOfStack value="32000"/>
-							<NumberOfStacksOfThisSize value="1"/>
+							<SizeOfStack value="32000" />
+							<NumberOfStacksOfThisSize value="1" />
 						</Item>
 					</StackSizeData>
 				</ConfigScriptStackSizes>
@@ -2003,185 +2003,185 @@ in this file and decrease the value.
 					<ExpectedMaximumsArray>
 						<Item>
 							<ResourceTypeName>PTFX</ResourceTypeName>
-							<ExpectedMaximum value="122"/>
+							<ExpectedMaximum value="122" />
 						</Item>
 						<Item>
 							<ResourceTypeName>PTFX_ASSET</ResourceTypeName>
-							<ExpectedMaximum value="40"/>
+							<ExpectedMaximum value="40" />
 						</Item>
 						<Item>
 							<ResourceTypeName>FIRE</ResourceTypeName>
-							<ExpectedMaximum value="64"/>
+							<ExpectedMaximum value="64" />
 						</Item>
 						<Item>
 							<ResourceTypeName>PEDGROUP</ResourceTypeName>
-							<ExpectedMaximum value="16"/>
+							<ExpectedMaximum value="16" />
 						</Item>
 						<Item>
 							<ResourceTypeName>SEQUENCE_TASK</ResourceTypeName>
-							<ExpectedMaximum value="200"/>
+							<ExpectedMaximum value="200" />
 						</Item>
 						<Item>
 							<ResourceTypeName>DECISION_MAKER</ResourceTypeName>
-							<ExpectedMaximum value="20"/>
+							<ExpectedMaximum value="20" />
 						</Item>
 						<Item>
 							<ResourceTypeName>CHECKPOINT</ResourceTypeName>
-							<ExpectedMaximum value="61"/>
+							<ExpectedMaximum value="61" />
 						</Item>
 						<Item>
 							<ResourceTypeName>TEXTURE_DICTIONARY</ResourceTypeName>
-							<ExpectedMaximum value="100"/>
+							<ExpectedMaximum value="100" />
 						</Item>
 						<Item>
 							<ResourceTypeName>DRAWABLE_DICTIONARY</ResourceTypeName>
-							<ExpectedMaximum value="80"/>
+							<ExpectedMaximum value="80" />
 						</Item>
 						<Item>
 							<ResourceTypeName>CLOTH_DICTIONARY</ResourceTypeName>
-							<ExpectedMaximum value="2"/>
+							<ExpectedMaximum value="2" />
 						</Item>
 						<Item>
 							<ResourceTypeName>FRAG_DICTIONARY</ResourceTypeName>
-							<ExpectedMaximum value="44"/>
+							<ExpectedMaximum value="44" />
 						</Item>
 						<Item>
 							<ResourceTypeName>DRAWABLE</ResourceTypeName>
-							<ExpectedMaximum value="136"/>
+							<ExpectedMaximum value="136" />
 						</Item>
 						<Item>
 							<ResourceTypeName>COVERPOINT</ResourceTypeName>
-							<ExpectedMaximum value="51"/>
+							<ExpectedMaximum value="51" />
 						</Item>
 						<Item>
 							<ResourceTypeName>ANIMATION</ResourceTypeName>
-							<ExpectedMaximum value="57"/>
+							<ExpectedMaximum value="57" />
 						</Item>
 						<Item>
 							<ResourceTypeName>MODEL</ResourceTypeName>
-							<ExpectedMaximum value="700"/>
+							<ExpectedMaximum value="700" />
 						</Item>
 						<Item>
 							<ResourceTypeName>RADAR_BLIP</ResourceTypeName>
-							<ExpectedMaximum value="3600"/>
+							<ExpectedMaximum value="3600" />
 						</Item>
 						<Item>
 							<ResourceTypeName>ROPE</ResourceTypeName>
-							<ExpectedMaximum value="36"/>
+							<ExpectedMaximum value="36" />
 						</Item>
 						<Item>
 							<ResourceTypeName>CAMERA</ResourceTypeName>
-							<ExpectedMaximum value="27"/>
+							<ExpectedMaximum value="27" />
 						</Item>
 						<Item>
 							<ResourceTypeName>PATROL_ROUTE</ResourceTypeName>
-							<ExpectedMaximum value="60"/>
+							<ExpectedMaximum value="60" />
 						</Item>
 						<Item>
 							<ResourceTypeName>MLO</ResourceTypeName>
-							<ExpectedMaximum value="35"/>
+							<ExpectedMaximum value="35" />
 						</Item>
 						<Item>
 							<ResourceTypeName>RELATIONSHIP_GROUP</ResourceTypeName>
-							<ExpectedMaximum value="502"/>
+							<ExpectedMaximum value="502" />
 						</Item>
 						<Item>
 							<ResourceTypeName>SCALEFORM_MOVIE</ResourceTypeName>
-							<ExpectedMaximum value="20"/>
+							<ExpectedMaximum value="20" />
 						</Item>
 						<Item>
 							<ResourceTypeName>STREAMED_SCRIPT</ResourceTypeName>
-							<ExpectedMaximum value="106"/>
+							<ExpectedMaximum value="106" />
 						</Item>
 						<Item>
 							<ResourceTypeName>ITEM_SET</ResourceTypeName>
-							<ExpectedMaximum value="6"/>
+							<ExpectedMaximum value="6" />
 						</Item>
 						<Item>
 							<ResourceTypeName>VOLUME</ResourceTypeName>
-							<ExpectedMaximum value="1"/>
+							<ExpectedMaximum value="1" />
 						</Item>
 						<Item>
 							<ResourceTypeName>SPEED_ZONE</ResourceTypeName>
-							<ExpectedMaximum value="220"/>
+							<ExpectedMaximum value="220" />
 						</Item>
 						<Item>
 							<ResourceTypeName>WEAPON_ASSET</ResourceTypeName>
-							<ExpectedMaximum value="128"/>
+							<ExpectedMaximum value="128" />
 						</Item>
 						<Item>
 							<ResourceTypeName>VEHICLE_ASSET</ResourceTypeName>
-							<ExpectedMaximum value="12"/>
+							<ExpectedMaximum value="12" />
 						</Item>
 						<Item>
 							<ResourceTypeName>POPSCHEDULE_OVERRIDE</ResourceTypeName>
-							<ExpectedMaximum value="1"/>
+							<ExpectedMaximum value="1" />
 						</Item>
 						<Item>
 							<ResourceTypeName>POPSCHEDULE_OVERRIDE_VEHICLE_MODEL</ResourceTypeName>
-							<ExpectedMaximum value="12"/>
+							<ExpectedMaximum value="12" />
 						</Item>
 						<Item>
 							<ResourceTypeName>SCENARIO_BLOCKING_AREA</ResourceTypeName>
-							<ExpectedMaximum value="45"/>
+							<ExpectedMaximum value="45" />
 						</Item>
 						<Item>
 							<ResourceTypeName>BINK_MOVIE</ResourceTypeName>
-							<ExpectedMaximum value="2"/>
+							<ExpectedMaximum value="2" />
 						</Item>
 						<Item>
 							<ResourceTypeName>MOVIE_MESH_SET</ResourceTypeName>
-							<ExpectedMaximum value="13"/>
+							<ExpectedMaximum value="13" />
 						</Item>
 						<Item>
 							<ResourceTypeName>SET_REL_GROUP_DONT_AFFECT_WANTED_LEVEL</ResourceTypeName>
-							<ExpectedMaximum value="6"/>
+							<ExpectedMaximum value="6" />
 						</Item>
 						<Item>
 							<ResourceTypeName>VEHICLE_COMBAT_AVOIDANCE_AREA</ResourceTypeName>
-							<ExpectedMaximum value="3"/>
+							<ExpectedMaximum value="3" />
 						</Item>
 						<Item>
 							<ResourceTypeName>DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS</ResourceTypeName>
-							<ExpectedMaximum value="3"/>
+							<ExpectedMaximum value="3" />
 						</Item>
 						<Item>
 							<ResourceTypeName>DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS_MULTIPLIER</ResourceTypeName>
-							<ExpectedMaximum value="3"/>
+							<ExpectedMaximum value="3" />
 						</Item>
 						<Item>
 							<ResourceTypeName>SYNCED_SCENE</ResourceTypeName>
-							<ExpectedMaximum value="51"/>
+							<ExpectedMaximum value="51" />
 						</Item>
 						<Item>
 							<ResourceTypeName>CLIP_SET</ResourceTypeName>
-							<ExpectedMaximum value="15"/>
+							<ExpectedMaximum value="15" />
 						</Item>
 						<Item>
 							<ResourceTypeName>VEHICLE_RECORDING</ResourceTypeName>
-							<ExpectedMaximum value="210"/>
+							<ExpectedMaximum value="210" />
 						</Item>
 						<Item>
 							<ResourceTypeName>MOVEMENT_MODE_ASSET</ResourceTypeName>
-							<ExpectedMaximum value="10"/>
+							<ExpectedMaximum value="10" />
 						</Item>
 						<Item>
 							<ResourceTypeName>CUT_SCENE</ResourceTypeName>
-							<ExpectedMaximum value="3"/>
+							<ExpectedMaximum value="3" />
 						</Item>
 						<Item>
 							<ResourceTypeName>CUT_FILE</ResourceTypeName>
-							<ExpectedMaximum value="3"/>
+							<ExpectedMaximum value="3" />
 						</Item>
-            <Item>
-              <ResourceTypeName>GHOST_SETTINGS</ResourceTypeName>
-              <ExpectedMaximum value="2"/>
-            </Item>
-            <Item>
-              <ResourceTypeName>PICKUP_GENERATION_MULTIPLIER</ResourceTypeName>
-              <ExpectedMaximum value="2"/>
-            </Item>
-          </ExpectedMaximumsArray>
+						<Item>
+							<ResourceTypeName>GHOST_SETTINGS</ResourceTypeName>
+							<ExpectedMaximum value="2" />
+						</Item>
+						<Item>
+							<ResourceTypeName>PICKUP_GENERATION_MULTIPLIER</ResourceTypeName>
+							<ExpectedMaximum value="2" />
+						</Item>
+					</ExpectedMaximumsArray>
 				</ConfigScriptResourceExpectedMaximums>
 			</Config>
 		</Item>
@@ -2189,7 +2189,6 @@ in this file and decrease the value.
 
 	</ConfigArray>
 </fwAllConfigs>
-
 <!--
  Hash key, standard value, and structure reference guide below:
  
