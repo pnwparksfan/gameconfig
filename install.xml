@@ -6,8 +6,14 @@
     <Metadata>
     </Metadata>
     <ResourceGroups>
-		<ResourceGroup name="Latest Gameconfig" scriptName="2699">
-			<Description>Adds the modified gameconfig.xml for the latest GTA V version (2699). Make sure you only have one group enabled.</Description>
+		<ResourceGroup name="Latest Gameconfig" scriptName="2802">
+			<Description>Adds the modified gameconfig.xml for the latest GTA V version (2802). Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>gameconfig_2802</Resource>
+			</Resources>
+		</ResourceGroup>
+		<ResourceGroup name="Gameconfig 2699" scriptName="2699">
+			<Description>Adds the modified gameconfig.xml for GTA V version 2699. Make sure you only have one group enabled.</Description>
 			<Resources>
 				<Resource>gameconfig_2699</Resource>
 			</Resources>
@@ -68,6 +74,12 @@
 		</ResourceGroup>
 	</ResourceGroups>
     <Resources>
+		<Resource name="Gameconfig for GTA v2802" scriptName="gameconfig_2802">
+			<FileReplacement>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/2802/gameconfig.xml</FilePath>
+			</FileReplacement>
+		</Resource>
 		<Resource name="Gameconfig for GTA v2699" scriptName="gameconfig_2699">
 			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
