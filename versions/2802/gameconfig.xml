@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--
+DILAPIDATED-REALISM DISPATCH ENHANCED 4.0
+ gameconfig.xml for GTA V 2802
+ 
+ RE by: alexguirre, CamxxCore, and Dilapidated 
+ Assistance from: A Stranger, Unknown, PNWParksFan, Cass, Jax765, Stryfaar, and the RDE Team
+If RPH freezes immediately when you try to list vehicle models 
+(e.g. with console command SpawnAndWarp), search for fwArchetypePooledMap
+in this file and decrease the value.
+-->
+
 <fwAllConfigs>
     <ConfigArray>
-		<!-- Updated by A Stranger for 2802.0 with the knowlegde of PNWParksFan, Cass, Jax765, Stryfaar, and the RDE Team. Thank you. -->
+	
         <!-- Base configuration, applies to all platforms and builds. -->
         <Item>
             <Build>Any</Build>
@@ -220,12 +231,12 @@
 					
 					
                         <!-- Keep these sorted -->
-
                         <Item>
                             <PoolName>AnimatedBuilding</PoolName>
                             <PoolSize value="600"/>
                         </Item>
                         <Item>
+							<!-- Crashed recently with this, default is 430, raised to 500 -->
                             <PoolName>AttachmentExtension</PoolName>
                             <PoolSize value="500"/>
                         </Item>
@@ -238,7 +249,7 @@
                             <PoolSize value="75"/>
                         </Item>
                         <Item>
-						<!-- Setting this value above 66025 can cause issues with NVE around the tunnel and roads they added, no other mods appear to be impacted -->
+							<!-- Setting this value above 66025 can cause issues with NVE around the tunnel and roads they added, no other mods appear to be impacted -->
                             <PoolName>Building</PoolName>
                             <PoolSize value="66000"/>
                         </Item>
@@ -268,7 +279,7 @@
                             <PoolSize value="50"/>
                         </Item>
                         <Item>
-						<!-- Storage for combat infos, RDE 4.0 requires a minimum of 19. -->
+							<!-- Storage for combat infos, RDE 4.0 requires a minimum of 19. -->
                             <PoolName>CCombatInfo</PoolName>
                             <PoolSize value="170"/>
                         </Item>
@@ -349,7 +360,7 @@
                             <PoolSize value="1400"/>
                         </Item>
                         <Item>
-						<!-- SHV hardcodes this value to 3072 -->
+							<!-- SHV hardcodes this value to 3072 -->
                             <PoolName>CScriptEntityExtension</PoolName>
                             <PoolSize value="3072"/>
                         </Item>
@@ -382,12 +393,12 @@
                             <PoolSize value="40"/>
                         </Item>
                         <Item>
-						<!-- Match Decorator pool. DecoratorExtension stores a list of Decorators so 1 DecoratorExtension per entity -->
+							<!-- Match Decorator pool. DecoratorExtension stores a list of Decorators so 1 DecoratorExtension per entity -->
                             <PoolName>DecoratorExtension</PoolName>
                             <PoolSize value="1200"/>
                         </Item>
                         <Item>
-						<!-- Storage for drawables, .ydr files -->
+							<!-- Storage for drawables, .ydr files -->
                             <PoolName>DrawableStore</PoolName>
                             <PoolSize value="156600"/>
                         </Item>
@@ -396,7 +407,7 @@
                             <PoolSize value="15000"/>
                         </Item>
                         <Item>
-						<!-- Storage for drawable dictionaries, .ydd files -->
+							<!-- Storage for drawable dictionaries, .ydd files -->
                             <PoolName>DwdStore</PoolName>
                             <PoolSize value="151300"/>
                         </Item>
@@ -417,7 +428,7 @@
                             <PoolSize value="14"/>
                         </Item>
                         <Item>
-						<!-- Storage for fragments, .yft files -->
+							<!-- Storage for fragments, .yft files -->
                             <PoolName>FragmentStore</PoolName>
                             <PoolSize value="285800"/>
                         </Item>
@@ -470,13 +481,13 @@
                             <PoolSize value="5000"/>
                         </Item>
                         <Item>
-						<!-- Storage for imaps, .ymap files -->
-						<!-- Unchanged -->
+							<!-- Storage for imaps, .ymap files -->
+							<!-- Unchanged -->
                             <PoolName>MapDataStore</PoolName>
                             <PoolSize value="10020"/>
                         </Item>
                         <Item>
-						<!-- Storage for metadata files, .ymt files -->
+							<!-- Storage for metadata files, .ymt files -->
                             <PoolName>MapTypesStore</PoolName>
                             <PoolSize value="6000"/>
                         </Item>
@@ -497,7 +508,7 @@
                             <PoolSize value="16"/>
                         </Item>
                         <Item>
-						<!-- Raising this value can cause issues with recording -->
+							<!-- Raising this value can cause issues with recording -->
                             <PoolName>Object</PoolName>
                             <PoolSize value="2300"/>
                         </Item>
@@ -522,12 +533,12 @@
                             <PoolSize value="256"/>
                         </Item>
                         <Item>
-						<!-- Handles weapon logic, normally attached to weapon objects, most likely will never need to be increased -->
+							<!-- Handles weapon logic, normally attached to weapon objects, most likely will never need to be increased -->
                             <PoolName>CWeapon</PoolName>
                             <PoolSize value="1024"/>
                         </Item>
                         <Item>
-						<!-- Physics instances, for physics world simulation -->
+							<!-- Physics instances, for physics world simulation -->
                             <PoolName>phInstGta</PoolName>
                             <PoolSize value="18000"/>
                         </Item>
@@ -584,7 +595,7 @@
                             <PoolSize value="40"/>
                         </Item>
                         <Item>
-						<!-- This increased by 20 since 2699 -->
+							<!-- This increased by 20 since 2699 -->
                             <PoolName>ScriptStore</PoolName>
                             <PoolSize value="1050"/>
                         </Item>
@@ -601,7 +612,7 @@
                             <PoolSize value="512"/>
                         </Item>
                         <Item>
-						<!-- Storage for texture dictionaries, .ytd files -->
+							<!-- Storage for texture dictionaries, .ytd files -->
                             <PoolName>TxdStore</PoolName>
                             <PoolSize value="213300"/>
                         </Item>
@@ -639,7 +650,7 @@
                             <PoolSize value="8192"/>
                         </Item>
                         <Item>
-						<!-- Increasing this value in addition to ctasksequencelist can resolve GTA.Native.?A0x55605b1d.NativeTask.Run() crashes in wineventlog -->
+							<!-- Increasing this value in addition to ctasksequencelist can resolve GTA.Native.?A0x55605b1d.NativeTask.Run() crashes in wineventlog -->
                             <PoolName>CEvent</PoolName>
                             <PoolSize value="4200"/>
                         </Item>
@@ -652,12 +663,12 @@
                             <PoolSize value="500"/>
                         </Item>
                         <Item>
-						<!-- SHV hardcodes this value to 3072 -->
+							<!-- SHV hardcodes this value to 3072 -->
                             <PoolName>atDScriptObjectNode</PoolName>
                             <PoolSize value="1600"/>
                         </Item>
                         <Item>
-						<!-- Archetypes/model infos have at most one associated fwDynamicArchetypeComponent.  Setting it to the same size as fwArchetypePooledMap should be ok-->
+							<!-- Archetypes/model infos have at most one associated fwDynamicArchetypeComponent.  Setting it to the same size as fwArchetypePooledMap should be ok-->
                             <PoolName>fwDynamicArchetypeComponent</PoolName>
                             <PoolSize value="65521"/>
                         </Item>
@@ -670,17 +681,17 @@
                             <PoolSize value="1250"/>
                         </Item>
                         <Item>
-						<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
+							<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
                             <PoolName>fwMatrixTransform</PoolName>
                             <PoolSize value="30000"/>
                         </Item>
                         <Item>
-						<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
+							<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
                             <PoolName>fwQuaternionTransform</PoolName>
                             <PoolSize value="12958"/>
                         </Item>
                         <Item>
-						<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
+							<!-- Increasing transform pools are unneeded:  they are just a wrapper around the normal math types and are used only once to convert a position and angle into a matrix-->
                             <PoolName>fwSimpleTransform</PoolName>
                             <PoolSize value="37000"/>
                         </Item>
@@ -733,7 +744,7 @@
                             <PoolSize value="192"/>
                         </Item>
                         <Item>
-						<!-- This value can fix pop-in issues however has a hardcode limit of 65521 -->
+							<!-- This value can fix pop-in issues however has a hardcode limit of 65521 -->
                             <PoolName>fwArchetypePooledMap</PoolName>
                             <PoolSize value="65521"/>
                         </Item>
