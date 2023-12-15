@@ -6,8 +6,14 @@
     <Metadata>
     </Metadata>
     <ResourceGroups>
-		<ResourceGroup name="Latest Gameconfig" scriptName="2944">
-			<Description>Adds the modified gameconfig.xml for the latest GTA V version (2944). Make sure you only have one group enabled.</Description>
+		<ResourceGroup name="Latest Gameconfig" scriptName="3095">
+			<Description>Adds the modified gameconfig.xml for the latest GTA V version (3095). Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>gameconfig_3095</Resource>
+			</Resources>
+		</ResourceGroup>
+		<ResourceGroup name="Gameconfig 2944" scriptName="2944" disabledByDefault="true">
+			<Description>Adds the modified gameconfig.xml for GTA V version 2944. Make sure you only have one group enabled.</Description>
 			<Resources>
 				<Resource>gameconfig_2944</Resource>
 			</Resources>
@@ -80,6 +86,12 @@
 		</ResourceGroup>
 	</ResourceGroups>
     <Resources>
+		<Resource name="Gameconfig for GTA v3095" scriptName="gameconfig_3095">
+			<FileReplacement>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/3095/gameconfig.xml</FilePath>
+			</FileReplacement>
+		</Resource>
 		<Resource name="Gameconfig for GTA v2944" scriptName="gameconfig_2944">
 			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
