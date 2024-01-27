@@ -35,5 +35,5 @@ that game version. For the latest game version, check the [releases](https://git
  - Reverse engineering/research by: alexguirre, CamxxCore, and Dilapidated 
  - Assistance from: Unknown, PNWParksFan, Cass, Jax765, and the RDE Team
 
-Permissions: You may redistribute these XMLs in your own mods permitted you give credit and leave all commented lines in the XML intact. 
+Permissions: You may redistribute these XMLs in your mods, but you are required to give credit and leave all commented lines in the XMLs intact.
 If you make any new gameconfig discoveries or find better settings, please make a Pull Request.
