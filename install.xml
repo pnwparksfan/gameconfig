@@ -1,13 +1,19 @@
 <EasyInstall>
     <Name>Updated Gameconfig.xml</Name>
-    <Author>Dilapidated, PNWParksFan, and Contributors</Author>
-    <Version>3258</Version>
+    <Author>Dilapidated, PNWParksFan, Jax765, and Contributors</Author>
+    <Version>3407</Version>
     <Link>https://github.com/pnwparksfan/gameconfig/releases</Link>
     <Metadata>
     </Metadata>
     <ResourceGroups>
-		<ResourceGroup name="Latest Gameconfig" scriptName="3258">
-			<Description>Adds the modified gameconfig.xml for the latest GTA V version (3258). Make sure you only have one group enabled.</Description>
+		<ResourceGroup name="Latest Gameconfig" scriptName="3407">
+			<Description>Adds the modified gameconfig.xml for the latest GTA V version (3407). Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>gameconfig_3407</Resource>
+			</Resources>
+		</ResourceGroup>
+		<ResourceGroup name="Gameconfig 3258" scriptName="3258" disabledByDefault="true">
+			<Description>Adds the modified gameconfig.xml for GTA V version 3258. Make sure you only have one group enabled.</Description>
 			<Resources>
 				<Resource>gameconfig_3258</Resource>
 			</Resources>
@@ -92,6 +98,12 @@
 		</ResourceGroup>
 	</ResourceGroups>
     <Resources>
+		<Resource name="Gameconfig for GTA v3407" scriptName="gameconfig_3407">
+			<FileReplacement>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/3407/gameconfig.xml</FilePath>
+			</FileReplacement>
+		</Resource>
 		<Resource name="Gameconfig for GTA v3258" scriptName="gameconfig_3258">
 			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
