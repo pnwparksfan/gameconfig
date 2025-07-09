@@ -104,7 +104,7 @@
 		</ResourceGroup>
 	</ResourceGroups>
     <Resources>
-		<Resource name="Gameconfig for GTA v3570" scriptName="gameconfig_3407">
+		<Resource name="Gameconfig for GTA v3570" scriptName="gameconfig_3570">
 			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
 				<FilePath>versions/3570/gameconfig.xml</FilePath>
