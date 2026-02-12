@@ -1,13 +1,19 @@
 <EasyInstall>
     <Name>Updated Gameconfig.xml</Name>
     <Author>Dilapidated, PNWParksFan, Jax765, and Contributors</Author>
-    <Version>3717</Version>
+    <Version>3751</Version>
     <Link>https://github.com/pnwparksfan/gameconfig/releases</Link>
     <Metadata>
     </Metadata>
     <ResourceGroups>
-		<ResourceGroup name="Latest Gameconfig" scriptName="3717">
-			<Description>Adds the modified gameconfig.xml for the latest GTA V version (3717). Make sure you only have one group enabled.</Description>
+		<ResourceGroup name="Latest Gameconfig" scriptName="3751">
+			<Description>Adds the modified gameconfig.xml for the latest GTA V version (3751). Make sure you only have one group enabled.</Description>
+			<Resources>
+				<Resource>gameconfig_3751</Resource>
+			</Resources>
+		</ResourceGroup>
+		<ResourceGroup name="Gameconfig 3717" scriptName="3717" disabledByDefault="true">
+			<Description>Adds the modified gameconfig.xml for GTA V version 3717. Make sure you only have one group enabled.</Description>
 			<Resources>
 				<Resource>gameconfig_3717</Resource>
 			</Resources>
@@ -110,6 +116,12 @@
 		</ResourceGroup>
 	</ResourceGroups>
     <Resources>
+		<Resource name="Gameconfig for GTA v3751" scriptName="gameconfig_3751">
+			<FileReplacement>
+				<GamePath>update:/common/data/gameconfig.xml</GamePath>
+				<FilePath>versions/3751/gameconfig.xml</FilePath>
+			</FileReplacement>
+		</Resource>
 		<Resource name="Gameconfig for GTA v3717" scriptName="gameconfig_3717">
 			<FileReplacement>
 				<GamePath>update:/common/data/gameconfig.xml</GamePath>
