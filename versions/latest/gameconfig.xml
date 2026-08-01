@@ -451,6 +451,7 @@ in this file and decrease the value.
 							<PoolName>DrawableStore</PoolName>
 							<PoolSize value="161965" />
 						</Item>
+						 <!-- Increased the Dummy Object value to avoid crashes with map mods like L.A Revo. -->
 						<Item>
 							<PoolName>Dummy Object</PoolName>
 							<PoolSize value="24000" />
